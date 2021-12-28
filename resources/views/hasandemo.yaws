@@ -1,0 +1,1014 @@
+
+<?php 
+
+ $title ='Web & Mobile Application Development | software development company in USA, UAE, India';
+ $description= 'Digiprima is among the top website and Mobile Application Development company provides end to end solution for Education, Manufacturing & fintech industry.';
+ $keyword = 'software development   company, artificial intelligence, industry  software development , manufacturing software development ,  fintech software development, IT company India, USA, UK, UEA';
+
+?>
+@include('head')
+
+
+  <!--== Hero Slider Start ==-->
+  <section class="remove-padding transition-none">
+    <div id="rev_slider_151_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="blur-effect-slider" data-source="gallery" style="background-color:#2d3032;padding:0px;">
+    <!-- START REVOLUTION SLIDER 5.4.1 fullscreen mode -->
+      <div id="rev_slider_151_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.1">
+    <ul>  <!-- SLIDE  -->
+      <li data-index="rs-411" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="images/slide/route-fifty-lead-image.png"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1000" data-fsslotamount="7" data-saveperformance="off"  data-title="One" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+        <!-- MAIN IMAGE -->
+        <img src="images/slider/route-fifty-lead-image.png"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+        <!-- LAYERS -->
+        <div id="rrzt_411" class="rev_row_zone rev_row_zone_top slider-creative" style="z-index: 9;">
+
+        <!-- LAYER NR. 1 -->
+        <div class="hero-text-wrap">
+          <div class="hero-text">
+        <div class="tp-caption  "
+           id="slide-411-layer-14"
+           data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']"
+           data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="row"
+          data-columnbreak="2"
+          data-basealign="slide"
+          data-responsive_offset="on"
+          data-responsive="off"
+          data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[0,0,0,0]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,100,50,50]"
+          data-paddingright="[100,50,40,40]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[100,50,40,40]"
+
+          style="z-index: 9; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);">
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption  "
+           id="slide-411-layer-15"
+           data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']"
+           data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="column"
+          data-responsive_offset="on"
+          data-responsive="off"
+          data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-columnwidth="100%"
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[0,0,0,0]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','center','center']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 10; width: 100%;">
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption   tp-resizeme  blurslider-gradient"
+           id="slide-411-layer-1"
+           data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']"
+           data-y="['top','top','top','top']" data-voffset="['0','0','230','110']"
+                data-fontsize="['110','90','100','70']"
+          data-lineheight="['100','90','100','70']"
+          data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="text"
+          data-basealign="slide"
+          data-responsive_offset="on"
+
+          data-frames='[{"delay":"+290","speed":2000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[30,20,30,30]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','center','center']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,40,40]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,40,40]"
+
+          style="z-index: 11; white-space: nowrap; font-size: 110px; line-height: 100px; font-weight: 700; color: rgba(255, 255, 255, 1.00); display: inline-block;font-family:'Montserrat', sans-serif;">Innovative<br/>Design </div>
+
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+
+      </li>
+      <!-- SLIDE  -->
+      <li data-index="rs-412" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="assets/images/home-bg-22-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Two" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+        <!-- MAIN IMAGE -->
+        <img src="assets/images/slides/home-bg-22.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+        <!-- LAYERS -->
+        <div id="rrzt_412" class="rev_row_zone rev_row_zone_top slider-creative" style="z-index: 5;">
+
+        <!-- LAYER NR. 10 -->
+        <div class="hero-text-wrap">
+          <div class="hero-text">
+        <div class="tp-caption  "
+           id="slide-412-layer-14"
+           data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']"
+           data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="row"
+          data-columnbreak="2"
+          data-basealign="slide"
+          data-responsive_offset="on"
+          data-responsive="off"
+          data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[0,0,0,0]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,100,50,50]"
+          data-paddingright="[100,50,40,40]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[100,50,40,40]"
+
+          style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);">
+        <!-- LAYER NR. 11 -->
+        <div class="tp-caption  "
+           id="slide-412-layer-15"
+           data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']"
+           data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="column"
+          data-responsive_offset="on"
+          data-responsive="off"
+          data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+     data-columnwidth="100%"
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[0,0,0,0]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','center','center']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 6; width: 100%;">
+        <!-- LAYER NR. 12 -->
+        <div class="tp-caption   tp-resizeme  blurslider-gradient"
+           id="slide-411-layer-1"
+           data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']"
+           data-y="['top','top','top','top']" data-voffset="['0','0','230','110']"
+                data-fontsize="['110','90','100','70']"
+          data-lineheight="['100','90','100','70']"
+          data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="text"
+          data-basealign="slide"
+          data-responsive_offset="on"
+
+          data-frames='[{"delay":"+290","speed":2000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[30,20,30,30]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','center','center']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,40,40]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,40,40]"
+
+          style="z-index: 11; white-space: nowrap; font-size: 110px; line-height: 100px; font-weight: 700; color: rgba(255, 255, 255, 1.00); display: inline-block;font-family:'Montserrat', sans-serif;">Strategic<br/>Plans </div>
+
+
+
+
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </li>
+      <!-- SLIDE  -->
+      <li data-index="rs-413" data-transition="fadethroughtransparent" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="default"  data-thumb="assets/images/slides/home-bg-23-100x50.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Three" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
+        <!-- MAIN IMAGE -->
+        <img src="assets/images/slides/home-bg-23.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="6" class="rev-slidebg" data-no-retina>
+        <!-- LAYERS -->
+        <div id="rrzt_413" class="rev_row_zone rev_row_zone_top slider-creative" style="z-index: 5;">
+
+        <!-- LAYER NR. 19 -->
+        <div class="hero-text-wrap">
+          <div class="hero-text">
+        <div class="tp-caption  "
+           id="slide-413-layer-14"
+           data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']"
+           data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="row"
+          data-columnbreak="2"
+          data-basealign="slide"
+          data-responsive_offset="on"
+          data-responsive="off"
+          data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[0,0,0,0]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,100,50,50]"
+          data-paddingright="[100,50,40,40]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[100,50,40,40]"
+
+          style="z-index: 5; white-space: nowrap; font-size: 20px; line-height: 22px; font-weight: 400; color: rgba(255, 255, 255, 1.00);">
+        <!-- LAYER NR. 20 -->
+        <div class="tp-caption  "
+           id="slide-413-layer-15"
+           data-x="['left','left','left','left']" data-hoffset="['100','100','100','100']"
+           data-y="['top','top','top','top']" data-voffset="['100','100','100','100']"
+                data-width="none"
+          data-height="none"
+          data-whitespace="nowrap"
+
+          data-type="column"
+          data-responsive_offset="on"
+          data-responsive="off"
+          data-frames='[{"delay":"+0","speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+     data-columnwidth="100%"
+          data-margintop="[0,0,0,0]"
+          data-marginright="[0,0,0,0]"
+          data-marginbottom="[0,0,0,0]"
+          data-marginleft="[0,0,0,0]"
+          data-textAlign="['inherit','inherit','center','center']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 6; width: 100%;">
+        <!-- LAYER NR. 21 -->
+        <div class="tp-caption   tp-resizeme  blurslider-gradient"
+                   id="slide-411-layer-1"
+                   data-x="['left','left','center','center']" data-hoffset="['0','0','0','0']"
+                   data-y="['top','top','top','top']" data-voffset="['0','0','230','110']"
+                        data-fontsize="['110','90','100','70']"
+                  data-lineheight="['100','90','100','70']"
+                  data-width="none"
+                  data-height="none"
+                  data-whitespace="nowrap"
+
+                  data-type="text"
+                  data-basealign="slide"
+                  data-responsive_offset="on"
+
+                  data-frames='[{"delay":"+290","speed":2000,"frame":"0","from":"y:50px;opacity:0;fb:20px;","to":"o:1;fb:0;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;fb:0;","ease":"Power3.easeInOut"}]'
+                  data-margintop="[0,0,0,0]"
+                  data-marginright="[0,0,0,0]"
+                  data-marginbottom="[30,20,30,30]"
+                  data-marginleft="[0,0,0,0]"
+                  data-textAlign="['inherit','inherit','center','center']"
+                  data-paddingtop="[0,0,0,0]"
+                  data-paddingright="[0,0,40,40]"
+                  data-paddingbottom="[0,0,0,0]"
+                  data-paddingleft="[0,0,40,40]"
+
+                  style="z-index: 11; white-space: nowrap; font-size: 110px; line-height: 100px; font-weight: 700; color: rgba(255, 255, 255, 1.00); display: inline-block;font-family:'Montserrat', sans-serif;">Art<br/>Makers </div>
+
+
+
+
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+      </li>
+    </ul>
+    <div style="" class="tp-static-layers">
+
+        <!-- LAYER NR. 28 -->
+        <div class="tp-caption   tp-static-layer"
+           id="slider-151-layer-29"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['-50','-50','119','119']"
+                data-width="['260','260','200','70']"
+          data-height="none"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="text"
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 17; min-width: 260px; max-width: 260px; white-space: nowrap; font-size: 15px; line-height: 15px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:'Montserrat', sans-serif;">1 <div class="blurslider-line" style="display:inline-block;width:40px;height:1px;background:#fff;margin: 10px 20px 4px 15px;"></div>Creativity </div>
+
+        <!-- LAYER NR. 29 -->
+        <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer"
+           id="slider-151-layer-22"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['-50','-50','102','102']"
+                data-width="['300','300','240','30%']"
+          data-height="50"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="shape"
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":"bytrigger","speed":800,"frame":"0","from":"x:[-100%];","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":500,"frame":"999","to":"x:[-100%];opacity:1;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+          data-blendmode="overlay"
+          data-lasttriggerstate="reset"
+          style="z-index: 18;background-color:rgba(0, 0, 0, 0.25);cursor:pointer;"> </div>
+
+        <!-- LAYER NR. 30 -->
+        <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer"
+           id="slider-151-layer-21"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['-50','-50','102','102']"
+                data-width="['300','300','240','30%']"
+          data-height="50"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="shape"
+          data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slider-151-layer-22","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slider-151-layer-22","delay":""},{"event":"click","action":"jumptoslide","slide":"rs-411","delay":""}]'
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"x:[-100%];","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Power4.easeOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bs:solid;bw:0 0 0 0;"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+          data-blendmode="overlay"
+
+          style="z-index: 19;background-color:rgba(255, 255, 255, 0.05);border-color:rgba(0, 0, 0, 0);cursor:pointer;"> </div>
+
+        <!-- LAYER NR. 31 -->
+        <div class="tp-caption   tp-static-layer"
+           id="slider-151-layer-28"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['0','0','68','68']"
+                data-width="['260','260','200','70']"
+          data-height="none"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="text"
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 20; min-width: 260px; max-width: 260px; white-space: nowrap; font-size: 15px; line-height: 15px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:'Montserrat', sans-serif;">2 <div class="blurslider-line" style="display:inline-block;width:40px;height:1px;background:#fff;margin: 10px 20px 4px 15px;"></div>Digital Solutions </div>
+
+        <!-- LAYER NR. 32 -->
+        <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer"
+           id="slider-151-layer-24"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['1','1','51','51']"
+                data-width="['300','300','240','30%']"
+          data-height="50"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="shape"
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":"bytrigger","speed":800,"frame":"0","from":"x:[-100%];","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":500,"frame":"999","to":"x:[-100%];opacity:1;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+          data-blendmode="overlay"
+          data-lasttriggerstate="reset"
+          style="z-index: 21;background-color:rgba(0, 0, 0, 0.25);cursor:pointer;"> </div>
+
+        <!-- LAYER NR. 33 -->
+        <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer"
+           id="slider-151-layer-23"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['1','1','51','51']"
+                data-width="['300','300','240','30%']"
+          data-height="50"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="shape"
+          data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slider-151-layer-24","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slider-151-layer-24","delay":""},{"event":"click","action":"jumptoslide","slide":"rs-412","delay":""}]'
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"x:[-100%];","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Power4.easeOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bs:solid;bw:0 0 0 0;"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+          data-blendmode="overlay"
+
+          style="z-index: 22;background-color:rgba(255, 255, 255, 0.05);border-color:rgba(0, 0, 0, 0);cursor:pointer;"> </div>
+
+        <!-- LAYER NR. 34 -->
+        <div class="tp-caption   tp-static-layer"
+           id="slider-151-layer-27"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['50','50','17','17']"
+                data-width="['260','260','200','70']"
+          data-height="none"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="text"
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":10,"speed":300,"frame":"0","from":"opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+
+          style="z-index: 23; min-width: 260px; max-width: 260px; white-space: nowrap; font-size: 15px; line-height: 15px; font-weight: 500; color: rgba(255, 255, 255, 1.00);font-family:'Montserrat', sans-serif;">3 <div class="blurslider-line" style="display:inline-block;width:40px;height:1px;background:#fff;margin: 10px 20px 4px 15px;"></div>Marketing </div>
+
+        <!-- LAYER NR. 35 -->
+        <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer"
+           id="slider-151-layer-26"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['52','52','0','0']"
+                data-width="['300','300','240','30%']"
+          data-height="50"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="shape"
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":"bytrigger","speed":800,"frame":"0","from":"x:[-100%];","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"bytrigger","speed":500,"frame":"999","to":"x:[-100%];opacity:1;","mask":"x:0;y:0;s:inherit;e:inherit;","ease":"Power4.easeOut"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+          data-blendmode="overlay"
+          data-lasttriggerstate="reset"
+          style="z-index: 24;background-color:rgba(0, 0, 0, 0.25);cursor:pointer;"> </div>
+
+        <!-- LAYER NR. 36 -->
+        <div class="tp-caption tp-shape tp-shapewrapper  tp-static-layer"
+           id="slider-151-layer-25"
+           data-x="['right','right','right','right']" data-hoffset="['0','0','0','0']"
+           data-y="['middle','middle','bottom','bottom']" data-voffset="['52','52','0','0']"
+                data-width="['300','300','240','30%']"
+          data-height="50"
+          data-whitespace="nowrap"
+          data-visibility="['on','on','on','off']"
+
+          data-type="shape"
+          data-actions='[{"event":"mouseenter","action":"startlayer","layer":"slider-151-layer-26","delay":""},{"event":"mouseleave","action":"stoplayer","layer":"slider-151-layer-26","delay":""},{"event":"click","action":"jumptoslide","slide":"rs-413","delay":""}]'
+          data-basealign="slide"
+          data-responsive_offset="off"
+          data-responsive="off"
+          data-startslide="0"
+          data-endslide="2"
+          data-frames='[{"delay":10,"speed":1000,"frame":"0","from":"x:[-100%];","mask":"x:0px;y:0px;s:inherit;e:inherit;","to":"o:1;","ease":"Power4.easeOut"},{"delay":"wait","speed":300,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"0","ease":"Power4.easeOut","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgba(0, 0, 0, 1.00);bs:solid;bw:0 0 0 0;"}]'
+          data-textAlign="['inherit','inherit','inherit','inherit']"
+          data-paddingtop="[0,0,0,0]"
+          data-paddingright="[0,0,0,0]"
+          data-paddingbottom="[0,0,0,0]"
+          data-paddingleft="[0,0,0,0]"
+          data-blendmode="overlay"
+
+          style="z-index: 25;background-color:rgba(255, 255, 255, 0.05);border-color:rgba(0, 0, 0, 0);cursor:pointer;"> </div>
+    </div>
+    <div class="tp-bannertimer" style="height: 5px; background-color: rgba(255, 255, 255, 0.25);"></div>  </div>
+    </div><!-- END REVOLUTION SLIDER -->
+  </section>
+  <!--== Hero Slider End ==-->
+
+
+  <!--== Who We Are Start ==-->
+ <!--  <section class="white-bg pb-50">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-10 section-heading">
+         <h5 class="default-color wow fadeInUp mt-0" data-wow-delay="0.1s">Be genuine. Be nice. Know Your Audience</h5>
+           <div class="animate-caption wow fadeInUp" data-wow-delay="0.2s">
+           <h2 class="mt-0 font-700 text-uppercase">We Are Web Design Agency Based on <span class="rotate">Sydney | Melbourne | Perth | Brisbane</span>, Australia.</h2>
+           <hr class="center_line dark-bg bold-line">
+           </div>
+       </div>
+     </div>
+     <div class="row mt-50">
+       <div class="col-md-4 feature-box text-left mb-50 col-sm-6 wow fadeInRight" data-wow-delay="0.1s">
+         <div class="pull-left"><i class="icon-pencil font-40px default-color"></i></div>
+         <div class="pull-right">
+           <h4 class="mt-0 font-600">User Experience</h4>
+           <p class="font-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+         </div>
+       </div>
+       <div class="col-md-4 feature-box text-left mb-50 col-sm-6 wow fadeInRight" data-wow-delay="0.2s">
+         <div class="pull-left"><i class="icon-tablet font-40px default-color"></i></div>
+         <div class="pull-right">
+           <h4 class="mt-0 font-600">Responsive Layout</h4>
+           <p class="font-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+         </div>
+       </div>
+       <div class="col-md-4 feature-box text-left mb-50 col-sm-6 wow fadeInRight" data-wow-delay="0.3s">
+         <div class="pull-left"><i class="icon-pictures font-40px default-color"></i></div>
+         <div class="pull-right">
+           <h4 class="mt-0 font-600">Digital Solutions</h4>
+           <p class="font-400">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+         </div>
+       </div>
+     </div>n
+   </div>
+ </section> -->
+  <!--== Who We Are End ==-->
+
+  <!--== About Company Start ==-->
+  <section class="pt-0 pb-0 grey-bg">
+    <div class="container-fluid">
+      <div class="row row-flex flex-center">
+      
+          <div class="col-md-12 col-sm-12">
+            <div class="col-inner  text-center">
+              <div class="sign"><img class="img-responsive" src="{{asset('/images/logo/digi.png')}}"/></div>
+              <h2 class="mt-20 text-uppercase font-700">Innovation in Enterprise Solutions<br> consulting excellence.</h2>
+              <hr class="dark-bg center_line bold-line">
+              <h5 class="mt-30">DigiPrima is a globally acclaimed brand-trusted software development company with its service footprints across the globe. We are adept in delivering a full spectrum of software consulting and development services to clients from more than 7 industries across the globe ranging from startups to fully-established enterprises.....</h5>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!--== About Company End ==-->
+  <!--== work Start ==-->
+ <section class="white-bg dark-block">
+    <div class="container-fluid">
+      <div class="row">
+
+            <div class="container">
+        <div class="row mt-50">
+          <h2 class="mt-20 text-center  font-700">We serve major Industry</h2>
+            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 centerize-col text-center">
+
+              <h5 class=" font-600 mb-30 font-25px">Helping businesses gain strategic advantage by <span class="default-color">leveraging existing strengths</span> and embracing Digital paradigms </h5>
+              <a class="btn btn-md btn-dark btn-circle" data-toggle="modal" data-target="#myModalqq">Start a Project <i class="icofont icofont-arrow-right font-18px"></i></a>
+          </div>
+
+
+        </div>
+    </div>
+
+            <div class="col-md-12">
+
+              <div id="portfolio-gallery" class="cbp">
+               
+            <div class="cbp-item print branding col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/artificial-intelligence.jpg" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#">Artificial Intelligence</a> </h3></div>
+                    </div>
+                  </div>
+            </div>
+             <div class="cbp-item print branding col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/maufacturing.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#">Manufacturing Industry </a></h3> </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="cbp-item print branding col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/ui-ux-design.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#">UI/UX  Design</a></h3> </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="cbp-item branding col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/education.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#">Education Software Development</a> </h3></div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="cbp-item print photography col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/healthcare.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title">Healthcare Development</a></h3> </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="cbp-item branding web-design col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/food-delivery.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#">Food Delivery   Application</a></h3> </div>
+                    </div>
+                  </div>
+            </div>
+
+
+            <div class="cbp-item branding advertising col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/fintech.jpg" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#">Fintech Development</a> </h3></div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="cbp-item branding photography col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/sport-betting.jpg" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"><a href="#"> Sport betting</a></h3> </div>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="cbp-item branding web-design col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/ecommerce.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"> <a href="#"> eCommerce Website & Application</a> </h3> </div>
+                    </div>
+                  </div>
+            </div>
+
+             <div class="cbp-item branding col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/social-networking.png" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title">Social </h3>
+                        <a href="#" class="links">Networking</a> </div>
+                    </div>
+                  </div>
+            </div>
+             <div class="cbp-item branding col-md-4 col-sm-6 with-spacing">
+                <div class="portfolio gallery-image-hover text-center">
+                    <div class="folio-overlay"></div>
+                    <img src="images/portfolio/mobile-app.jpg" alt="">
+                    <div class="portfolio-wrap">
+                      <div class="portfolio-description">
+                        <h3 class="portfolio-title"> 
+                        <a href="#">Mobile App Design & Developement</a> </h3></div>
+                    </div>
+                  </div>
+            </div>
+
+              </div>
+
+            </div>
+
+        </div>
+    </div>
+  </section>
+
+  <!--== work End ==-->
+
+  <!--== Call to Actions Start ==-->
+  <section class="dark-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-10 col-xs-12 centerize-col text-center">
+              <h5 class="font-50px play-font white-color">Convert your App Idea into a Profitable Business?</h5>
+              <h5 class="mb-30 font-20px play-font default-color font-700"> free expert advisor </h5>
+              <a class="btn btn-md btn-light-outline btn-circle"> Talk to a Consultant</a>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--== Call to Actions End ==-->
+<!--== Page Title Start ==-->
+  <section class="white-bg">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 col-sm-12 col-xs-12 display-table sm-screen">
+            <div class="v-align-middle text-center">
+              <div class="text-center">
+                  <h2 class="font-700 font-80px line-height-100 xs-font-20px xs-line-height-40 sm-font-40px sm-line-height-50 herr-font">Free Revolution Slider</h2>
+                <h1 class="font-700 font-130px line-height-100 xs-font-40px xs-line-height-50 sm-font-60px sm-line-height-70 text-uppercase default-color">Torneo.</h1>
+                <h4 class="font-300 font-26px roboto-font">Creative agency, corporate, simple and clean template, Based on Bootstrap responsive multipurpose agency and portfolio HTML5 template with <span class="default-color text-decoration-underline font-500">28 unique</span> home page demos</h4>
+                <p class="mt-30"><a href="documentation/index.html" target="_blank" class="btn btn-lg btn-dark btn-circle">Documentation</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!--== Page Title End ==-->
+
+
+  <!--== Counter Start ==-->
+  <section class="white-bg pt-80 pb-80">
+    <div class="container">
+      <div class="row counter-type-4">
+        <div class="col-md-3 col-sm-6">
+          <div class="counter-wrap wow fadeInRight" data-wow-delay="0.1s">
+             <div class="pull-left">
+              <i class="icon-genius default-color font-40px"></i>
+             </div>
+             <div class="pull-left pl-20">
+                <h2><span class="counter font-600">634</span></h2>
+                <div class="line default-bg"></div>
+                <h3 class="dark-color text-uppercase">Project Delivered</h3>
+             </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="counter-wrap wow fadeInRight" data-wow-delay="0.2s">
+             <div class="pull-left">
+                <i class="icon-speedometer default-color font-40px"></i>
+             </div>
+             <div class="pull-left pl-20">
+                <h2><span class="counter font-600">974</span></h2>
+                <div class="line default-bg"></div>
+                <h3 class="dark-color text-uppercase">Cups of Coffee</h3>
+             </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+          <div class="counter-wrap wow fadeInRight" data-wow-delay="0.3s">
+            <div class="pull-left">
+              <i class="icon-paintbrush default-color font-40px"></i>
+            </div>
+            <div class="pull-left pl-20">
+              <h2><span class="counter font-600">3521</span></h2>
+              <div class="line default-bg"></div>
+              <h3 class="dark-color text-uppercase">Happy Clients</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <div class="counter-wrap wow fadeInRight" data-wow-delay="0.4s">
+            <div class="pull-left">
+              <i class="icon-strategy default-color font-40px"></i>
+            </div>
+            <div class="pull-left pl-20">
+              <h2><span class="counter font-600">449</span></h2>
+              <div class="line default-bg"></div>
+              <h3 class="dark-color text-uppercase">Awards Won</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--== Counter End ==-->
+
+  <!--== Testimonails Start ==-->
+  <section class="parallax-bg fixed-bg" data-parallax-bg-image="images/testimonials-bg.jpg1" data-parallax-speed="0.5" data-parallax-direction="up">
+   <div class="parallax-overlay"></div>
+    <div class="container">
+      <div class="row slick testimonial-style-2">
+        <!--== Slide ==-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+      <div class="testimonial-item">
+        <div class="testimonial-content">
+          <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
+            <div class="v-align-middle">
+              <img class="img-responsive img-circle" src="{{asset('images/team/chales.jpeg')}}" alt="Chales"/>
+            </div>
+            </div>
+            <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
+              <h4 class="white-color mt-0 mb-0 text-uppercase font-20px">Charles Blundell</h4>
+            <p class="default-color"> <b>Scientist</b></p>
+            <h5 class="mt-10">DigiPrima worked very hard on our project at short notice. Node.js and Mongo experts!!! Their help in our Mean stack development project which was much appreciated! Great team to work with.</h5>
+            </div>
+        </div>
+      </div>
+        </div>
+
+        <!--== Slide ==-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+      <div class="testimonial-item">
+        <div class="testimonial-content">
+          <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
+            <div class="v-align-middle">
+              <img class="img-responsive img-circle" src="{{asset('images/team/robin_50.jpeg')}}" alt="Robin"/>
+            </div>
+            </div>
+            <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
+              <h4 class="white-color mt-0 mb-0 text-uppercase font-20px">Robin Owens-Wright</h4>
+            <p class="default-color"><b>Founder/Managing Principal</b></p>
+            <h5 class="mt-10">AMAZING work! DigiPrima knows how to troubleshoot and is quick and reliable. I HIGHLY recommend DiGiPRIMA. they back up their work and they will now be my “go to” person. Very professional and creative.</h5>
+            </div>
+        </div>
+      </div>
+        </div>
+
+        <!--== Slide ==-->
+        <div class="col-md-6 col-sm-6 col-xs-12">
+      <div class="testimonial-item">
+        <div class="testimonial-content">
+          <div class="col-md-3 text-center col-sm-3 col-xs-12 display-table">
+            <div class="v-align-middle">
+              <img class="img-responsive img-circle" src="{{asset('images/team/william_c64.jpeg')}}" alt="william"/>
+            </div>
+            </div>
+            <div class="col-md-8 text-left col-sm-8 col-xs-12 xs-text-center">
+              <h4 class="white-color mt-0 mb-0 text-uppercase font-20px">William Stanton</h4>
+            <p class="default-color"><b>Director of Business Development</b></p>
+            <h5 class="mt-10">DigiPrima Technologies is a highly skilled team with an eye for details.  The project management and communication was really good  and the dedicated project manager made a great job keeping things together.</h5>
+            </div>
+        </div>
+      </div>
+        </div>
+        <!--== Slide ==-->
+     
+
+
+
+      </div>
+    </div>
+  </section>
+  <!--== Testimonails End ==-->
+
+  <!--== Portfolio Layouts Start ==-->
+ 
+  <!--== Video End ==-->
+
+
+ <!--== Contact Us Start ==-->
+  <section class="default-bg pt-0 pb-0" >
+    <div class="container-fluid">
+         <div class="row row-flex flex-center">
+            <div class="col-md-6 col-sm-4 col-xs-12 relative xs-display-none sm-display-none">
+                <div class="img-center" style="background-image: url(assets/images/bg-left-img-6.jpg);"></div>
+            </div>
+          <div class="col-md-6 col-sm-12">
+              <div class="col-inner spacer white-color">
+                  <h2 class="font-700 mt-0 text-center text-uppercase">Get in Touch With Us</h2>
+                  <hr class="default-bg center_line bold-line">
+                  <h5 class="text-center">Sticks in a bundle are unbreakable</h5>
+
+                  <form name="contact-form" id="contact-form-03" action="#" method="POST" class="contact-form-style-03 mt-50">
+                        <div class="messages"></div>
+                        <div class="form-group">
+                          <label class="sr-only" for="name">Name</label>
+                          <input type="text" name="name" class="md-input style-02" id="name3" required placeholder="Name *" data-error="Your Name is Required">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" for="email">Email</label>
+                          <input type="email" name="email" class="md-input style-02" id="email3" placeholder="Email*" required data-error="Please Enter Valid Email">
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group">
+                          <label class="sr-only" for="message">Message</label>
+                          <textarea name="message" class="md-textarea style-02" id="message3" rows="7" placeholder="Message*" required data-error="Please, Leave us a message"></textarea>
+                          <div class="help-block with-errors"></div>
+                        </div>
+                        <p class="text-center"><button type="submit" name="submit" class="btn btn-color btn-md remove-margin">Send Message</button></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!--== Portfolio Layouts End ==-->
+
+
+ <section class="parallax-bg fixed-bg" data-parallax-bg-image="images/parallax-bg-2.jpg" data-parallax-speed="0.8" data-parallax-direction="up">
+    <div class="parallax-overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-md-offset-1 text-center parallax-content">
+          <div class="center-layout">
+                <div class="v-align-middle">
+                 <a class="popup-youtube" href="https://www.youtube.com/watch?v=izryxOsUDv0">
+                  <div class="play-button">
+                    <i class="tr-icon ion-android-arrow-dropright"></i>
+                  </div>
+                 </a>
+                  <h2 class="font-700 white-color">Torneo having a big sale on their online themes right now so you can learn something new this year.</h2>
+                  <h5 class="grey-color mt-30">Objectively innovate empowered manufactured products whereas parallel platforms. Holisticly predominate extensible testing procedures for reliable supply chains. Dramatically engage top-line web services vis-a-vis cutting-edge deliverables.</h5>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--== Clients Start ==-->
+  <section class="default-bg">
+    <div class="container">
+      <div class="row">
+        <div class="client-slider slick">
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/3m-ploter-1.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/AMERICAN-PIZZA.png" alt="AMERICAN-PIZZA"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/auto-1-bw.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/aviva123.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/birla_9812.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/canadean-5-bw.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/mintfisha.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/rio_7a.png" alt="01"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/thompson_aea.png" alt="02"/> </div>
+          <div class="client-logo"> <img class="img-responsive" src="images/clientlogo/twilio_4a.png" alt="03"/> </div>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--== Clients End ==-->

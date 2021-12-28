@@ -1,0 +1,228 @@
+<?php 
+
+ $title ='Web & Mobile Application Development | software development company in USA, UAE, India';
+ $description= 'Digiprima is among the top website and Mobile Application Development company provides end to end solution for Education, Manufacturing & fintech industry.';
+ $keyword = 'software development   company, artificial intelligence, industry  software development , manufacturing software development ,  fintech software development, IT company India, USA, UK, UEA';
+
+?>
+@include('head') 
+<div class="transition-none">
+      <section class="title-hero-bg " style="background-image: url(assets/images/img/about-bg.jpg);">
+        <div class="container">
+            <div class="page-title text-center white-color">
+                <h1>About Us</h1>
+                <h4 class="mt-30"style="margin-top: -5px"></h4>
+                <h4 class="mt-30"style="margin-top: -5px"></h4>
+            </div>
+        </div>
+      </section>
+  </div>
+
+
+  <section class="grey-bg white-block section-two">
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-6">
+          <h3 class="text-uppercase mt-0">About Our Company</h3>
+      
+        </div>
+        <div class="col-md-6"></div>
+           
+        </div>
+    </div>
+  </section>
+
+
+  <section class="grey-bg white-block section-two para6">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-6">
+              <h3 class="mt-10 font-700 roboto-font text-hd">DiGiPrima is a software development company </h3>
+              
+            </div>
+     
+
+      <div class="col-md-6">
+      <p class="para4">DiGiPRIMA takes pride in creating beautiful, award-winning websites that are clean, user-friendly and mobile responsive to work on all devices. Our process focuses on your business needs and objectives to ensure that your new site leads to more conversions </p>
+              
+      </div>
+
+      </div>
+       </div>
+    </div>
+  </section>
+
+  <section class="grey-bg white-block section-two para6">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-6">
+              <h3 class="mt-10 font-700 roboto-font text-hd">who we are
+ </h3>
+              
+            </div>
+     
+
+      <div class="col-md-6">
+      <p class="para4">DiGiPrima is a globally acclaimed brand-trusted software development company with its service footprints across the globe. We are one of the best software development companies in USA, UK, Australia & South-Asian countries.</p>
+              
+      </div>
+   
+      
+      </div>
+       </div>
+    </div>
+  </section>
+  <section class="grey-bg white-block section-two para6">
+    <div class="container">
+      <div class="row">
+       <div class="col-md-6"> 
+              <h3 class="mt-10 font-700 roboto-font text-hd">Our History
+ </h3>
+              
+            </div>
+     
+
+      <div class="col-md-6">
+      <p class="para4">With more than 4 years of excellent service delivery experience, we are adept in We are one of the best software development companies in USA, UK, Australia & South-Asian countries. With more than 4 years of excellent service delivery experience, we are adept in delivering a full spectrum of software consulting and development services to clients from more than 7 industries across the globe ranging from startups to fully-established enterprises. </p>
+              
+      </div>
+
+     
+     
+
+          
+      
+      </div>
+       </div>
+    </div>
+  </section>
+  <!--== Features End ==-->
+
+  
+ 
+
+  <!--== Our Team Start ==-->
+  
+
+
+ <section class="grey-bg dark-block table-section" style="margin-top: -20px;">
+    <div class="container">     
+      <div class="row mt-50">
+          <div class="col-sm-6 mt-51">
+          <h3 class="default-color mt-0 para7">Sparkbit consists of 27 specialists
+</h3>
+          
+        </div>
+         <div class="col-sm-6 mt-52 ">
+          <h3 class="default-color mt-0 para7">Manufacturing Industry Solutions
+</h3>
+          
+        </div>
+
+<div class="col-sm-4 mt-51">
+          <h3 class="default-color mt-0 para7">Mission
+</h3><p>The company’s mission is to help global organizations overcome technology challenges of Digital Transformation with the focus on new and emerging technologies, which we believe should make a positive impact on each area of our lives, making it simpler, smarter, and opening new promising horizons.</p>
+          
+        </div>
+         <div class="col-sm-8 mt-52 ">
+         <div class="w3-container">
+  
+
+  <table class="w3-table-all">
+    <tr class="table-sec">
+      <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+     <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+     <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+    </tr>
+
+     <tr class="table-sec">
+      <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+     <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+     <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+    </tr> <tr class="table-sec">
+      <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+     <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+     <th><span class="th-para1">15</span><br/><span class="th-para2">people know</span><br/><span class="th-para3">Java & Spring Framework</span></th>
+    </tr>
+  </table>
+</div>
+
+</h3>
+          
+        </div>
+
+  </section>
+
+  <div class="last-sec">
+<div class="container">
+  <div class="row">
+   <div class="col-md-4"><img class="img-responsive side-img img1" src="assets/images/img/side.png" alt=""/></div>
+   <div class="col-md-4 text-para-bg1">
+
+    <h1 class="text-para">Vission</h1><p>Delivering innovative technical solutions to overcome obstacles experienced at the tactical, operational, and strategic levels. Develop trusted relationships with our clients by providing dedicated and relevant technical expertise.</p></div>
+   <div class="col-md-4 text-para-bg2"><h1 class="text-para">Industry Recognition</h1><p>DiGiPrima is recognized and renowned among the world’s leading software outsourcing providers by different industry authorities and highlighted in the various fortune listing directories.</p></div>
+   </div>
+ </div>
+</div>
+<!--table-section-->
+
+
+
+
+
+ 
+
+  
+
+  <!--== Testimonails Start ==-->
+ <!--  <section class="grey-bg">
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-8 section-heading">
+     <h3 class="text-uppercase default-color mt-0">Digital Manufacturing</h3>
+   
+   </div>
+     </div>
+     <div class="row">
+ 
+         <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
+        
+       <div class="testimonial-item">
+         <div class="testimonial-content">
+         
+         <h5 class="font-700 mb-0">Mobile & Web App</h5>
+         <span class="default-color font-14px">Development</span>
+         <p class="mt-20 line-height-26 font-14px">Manage the people, process, and operations with utmost competence and have better-streamlined processes.</p>
+         </div>
+       </div>
+         </div>
+ 
+         <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+    
+       <div class="testimonial-item">
+         <div class="testimonial-content">
+         
+         <h5 class="font-700 mb-0">IoT Industrial Manufacturing </h5>
+         <span class="default-color font-14px">Solutions</span>
+         <p class="mt-20 line-height-26 font-14px">Let the processes, technology, and features interact smartly with each other and conclude high-yielding decisions.</p>
+         </div>
+       </div>
+     </div>
+     <div class="col-md-4 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+     
+       <div class="testimonial-item">
+         <div class="testimonial-content"> 
+         <h5 class="font-700 mb-0">Cloud Infrastructure</h5>
+         <span class="default-color font-14px">Development</span>
+         <p class="mt-20 line-height-26 font-14px">Have a cloud infrastructure that targets and achieves the desired values for your business.</p>
+         </div>
+       </div>
+     </div>
+     </div>
+   </div>
+ </section> -->
+  <!--== Testimonails End ==-->
+
+  <!--== Video Start ==-->
+ <!--  -->
+
