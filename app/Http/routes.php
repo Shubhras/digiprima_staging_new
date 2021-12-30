@@ -58,6 +58,10 @@ Route::get('/artificial-intelligence', function () {
 return view('artificial-intelligence') . view('footer2');
 });
 
+Route::get('/data-analytics', function () {
+    return view('data-analytics') . view('footer2');
+    });
+
 Route::get('/blognew', function () {
 return view('head') . view('blognew') . view('footer2');
 });
@@ -187,6 +191,22 @@ Route::get('/loanmoksha-portfolio', function(){
 
 Route::get('/sa-portfolio', function(){
     return view('head') . view('portfolio.SA-case-study') .view('footer2');
+
+});
+Route::get('/sa-portfolio-new', function(){
+    return view('head') . view('portfolio.SA-case-study-new') .view('footer2');
+
+});
+Route::get('/sa-portfolio-background', function(){
+    return view('head') . view('portfolio.SA-case-study-background') .view('footer2');
+
+});
+Route::get('/sa-portfolio-flutter-react-native', function(){
+    return view('head') . view('portfolio.SA-case-study-flutter-react-native') .view('footer2');
+
+});
+Route::get('/sa-portfolio-carsbeat', function(){
+    return view('head') . view('portfolio.SA-case-study-carsbeat') .view('footer2');
 
 });
 Route::get('/bethite-portfolio', function(){

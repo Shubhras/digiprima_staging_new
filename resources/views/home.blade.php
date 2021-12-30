@@ -116,7 +116,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-10 main-heading">
-          <h1 class="mt-0 text-uppercase" style="font-size: 24px; color: black;">An outsourced product development company delivering innovation-led strategy, technology, and business consulting services.</h1>
+          <h1 class="mt-0 text-uppercase" style="font-size: 24px; color: black;">hfdc An outsourced product development company delivering innovation-led strategy, technology, and business consulting services.</h1>
           <div class="wow fadeInLeft" data-wow-delay="0.1s">
             <h3 class="roboto-font font-600"><span class="weare">We're</span> Digiprima</h3>
             <p class="allp">Our Technology-headed brains are always taking up the challenges of serving various domains with perennially emerging technologies such as Internet of Things (IoT), Artificial Intelligence (AI), Big Data Analytics, Machine Learning, AR/VR, enterprise mobility and much more that can enable their digital transformation to become more competitive in shaping the revitalized ecosystem of their choice. The industries we cater to are..</p>
@@ -211,8 +211,10 @@
           <h3 class="roboto-font font-400 white-color">We help digital transformation to become more competitive in shaping the revitalized ecosystem with strategy, design and technology integration.</h3>
           <div class="col-md-12 col-sm-12 centerize-col btn-mobilize text-center mt-40">
 
+
               <a class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm" href="{{asset('portfolio')}}"><span>Portfolio <i class="tr-icon icofont icofont-ui-theme"></i></span></a> 
               <a class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm" href="{{asset('case-study')}}"><span>case study <i class="tr-icon icofont icofont-ui-theme"></i></span></a>
+              <!-- <a class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm" href="{{asset('case-study Second')}}"><span>case study Second<i class="tr-icon icofont icofont-ui-theme"></i></span></a> -->
           </div>
         </div>
       </div>

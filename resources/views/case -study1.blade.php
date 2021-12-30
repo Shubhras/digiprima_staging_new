@@ -1,11 +1,11 @@
 
   <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url{{asset("images/bg-right-img-2.jpg")}}" alt="case study in development" title="case study in development">
+      <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/digi-case-study.jpg') }}" alt="case study in development" title="case study in development">
 
         <div class="layer container">
             <div class="page-title text-center white-color">
-                <h1>Portfolio </h1>
-                <h4 class="mt-30"style="margin-top: -5px">Our Creative Portfolio</h4>
+                <h1>Case Study Second</h1>
+                <h4 class="mt-30"style="margin-top: -5px">Trusted Development & Outsourcing Partner</h4>
             </div>
         </div>
       </section>
@@ -45,7 +45,7 @@
               <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">LoanMoksha</h2>
               <h3 class="roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">Largest Loan & Card Marketplace</h3>
               <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30 " style="color: black; margin-left: 12%"><a href="loanmoksha-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30 " style="color: black; margin-left: 12%"><a href="loanmoksha-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
             </div>
      
       
@@ -59,7 +59,7 @@
        <h2 class="mt-0 font-700" style="color: black;">MDout</h2>
               <h3 class=" roboto-font mt-0 mb-0" style="color: black;">Healthcare Research and Analutics Company</h3>
               <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="mdout-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30"><a href="mdout-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
            
             </div>
 
@@ -105,7 +105,7 @@
       <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">My Thana App</h2>
               <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">India's First Police App with Video Call & Inter State Police Verification</h3>
               <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="my-thana-app-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30" style="color: black; margin-left: 12%"><a href="my-thana-app-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
             </div>
      
       
@@ -119,7 +119,7 @@
   <h2 class="mt-0 font-700" style="color: black;">BetHite</h2>
               <h3 class=" roboto-font mt-0 mb-0" style="color: black;">Peer to Peer Sports Betting Platform</h3>
               <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="bethite-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30"><a href="bethite-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
       
        </div>
 
@@ -163,10 +163,10 @@
      
 
       <div class="col-md-6 col-sm-12 col-xs-12">
-      <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">Finexchange</h2>
+      <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">Carfoodie - Online Ordering built for you restauran</h2>
               <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">Online Syndication Desk</h3>
               <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="finexchange-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30" style="color: black; margin-left: 12%"><a href="finexchange-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
             </div>
      
       
@@ -181,7 +181,7 @@
               <h3 class=" roboto-font mt-0 mb-0" style="color: black;">Social Platform for Athletes & Coaches
 </h3>
               <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="scholly-me-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30"><a href="scholly-me-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
       
        </div>
 
@@ -201,13 +201,9 @@
  </div>    
  
  </div>
-</div>
-</section>
 
- @include('contect1-us')
 
-<section class="white-bg">
-<div class="container">
+
  <div class="row">
        
 
@@ -234,7 +230,7 @@
               <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">leukemia Team in Training (TNT) Canada is the world's largest and most successful endurance sports training program for charity.
 </h3>
               <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="llstnt-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30" style="color: black; margin-left: 12%"><a href="llstnt-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
             </div>
      
       
@@ -250,7 +246,7 @@
 
 </h3>
               <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="sa-portfolio" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
+              <p class="mt-30"><a href="sa-case-study" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
       
        </div>
 
@@ -267,131 +263,9 @@
             </div>
           </figcaption>
         </figure>
- </div>   
- 
-
-
-
- <div class="row">
-       
-
-       <div class="row mt-70">
-
-       <div class="col-md-6">
-       <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/finaceexchange.png')}}" alt="Finexchange" title="Finexchange">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
-          </div>
-     
-
-      <div class="col-md-6 col-sm-12 col-xs-12">
-      <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">Carfoodie</h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">Online Ordering built for you restauran</h3>
-              <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="sa-portfolio-new" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-            </div>
-     
-      
-    </div>
-
-    <div class="col-sm-12 section-heading">
-</div>
- </div>
- <div class="row mt-100">
-  <div class="col-md-6">
-  <h2 class="mt-0 font-700" style="color: black;">Background </h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black;">Stock Quotes, Stock Tips & Investment Strategies
-
-</h3>
-              <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="sa-portfolio-background" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-      
-       </div>
-
- <div class="col-md-6">
-         
- <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/mob-apps.png')}}" alt="Street Authority " title="Street Authority ">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="assets/images/portfolio/grid/31.jpg">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
- </div>   
-
-<div class="col-sm-12 section-heading">
-</div>
- </div>
+ </div>    
  
  </div>
-
- <div class="row">
-       
-
-       <div class="row mt-70">
-
-       <div class="col-md-6">
-       <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/finaceexchange.png')}}" alt="Finexchange" title="Finexchange">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
-          </div>
-     
-
-      <div class="col-md-6 col-sm-12 col-xs-12">
-      <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">White Paper</h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">CROSS-PLATFORM MOBILE APP – FLUTTER & REACT NATIVE</h3>
-              <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="sa-portfolio-flutter-react-native" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-            </div>
-     
-            <div class="col-sm-12 section-heading">
-</div>
- </div>
- <div class="row mt-100">
-  <div class="col-md-6">
-  <h2 class="mt-0 font-700" style="color: black;">Carsbeat</h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black;">You can buy/sell cars/parts</h3>
-              <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="sa-portfolio-carsbeat" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-      
-       </div>
-
- <div class="col-md-6">
-         
- <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/mob-apps.png')}}" alt="Street Authority " title="Street Authority ">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="assets/images/portfolio/grid/31.jpg">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
- </div>   
-      
-    </div>
 
     </div>
   </section>
@@ -415,17 +289,17 @@
   <!--== Portfolio End ==-->
 
   <!--== Contact Start ==-->
-  <!-- <section class="white-bg">
+  <section class="white-bg">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="play-font mt-0 font-700 roboto-font" style="color: black;">Are you intested to work with me? <br>Please send me an email and i will get back to you soon.</h2>
+          <h2 class="play-font mt-0 font-700 roboto-font" style="color: black;">Are you intested to work with us? <br>Please send me an email and we will get back to you soon.</h2>
         </div>
       </div>
     </div>
-  </section> -->
+  </section>
   <!--== Contact End ==-->
-  @include('request-meeting')
+
   <!--== Clients Start ==-->
   <section class="default-bg">
     <div class="container">

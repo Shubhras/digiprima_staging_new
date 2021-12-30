@@ -224,7 +224,7 @@ else { ?>
                         <li><a href="{{asset('/cloud-service')}}">Cloud Services</a></li>
                         <li><a href="#">Testing</a></li>
                         <!-- <li><a href="#">Service Experience Transformation </a></li> -->
-                        <li><a href="{{asset('/business-intelligence-consulting')}}">Data Analytics</a></li>
+                        <li><a href="{{asset('/data-analytics')}}">Data Analytics</a></li>
                        
                       </ul>
                     </div>

@@ -99,7 +99,7 @@ img.img-fluid.z-depth-1-half.rounded-circle {
     <div class="col-sm-4 size-text ">
       <!-- <img src="{{asset('images/logo-photo.jpg')}}" alt="Michal Szymanski - founder of Material Design for Bootstrap" class="img-fluid z-depth-1-half rounded-circle "> -->
     <h3 style="font-size: 19px;" class="text-center "><a href="tel:+1 (347) 973 9732">+1 (347) 973 9732</a></h3>
-    <h3 style="font-size: 15px;" class="text-center "><a href="mailto:info@digiprima.com">info@digi prima.com</a></h3>
+    <h3 style="font-size: 15px;" class="text-center "><a href="mailto:info@digiprima.com">info@digiprima.com</a></h3>
     </div>
     <div class="col-sm-8 size-font">
     <span class="icon-box mb-20">

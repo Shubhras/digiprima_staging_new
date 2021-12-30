@@ -2216,7 +2216,8 @@ input.search-bar-top:-moz-placeholder {
 }
 
 .mt-20 {
-    margin-top: 20px
+    margin-top: 20px;
+    
 }
 
 .mt-30 {
@@ -11487,7 +11488,12 @@ section.dark-block.title-hero-bg::before {
 }
 
 .md-input-new {
-    background-color: ;
+    /* background-color: ; */
     border: 1px solid #000;
     border-radius: 5px;
+}
+/* //Nitesh */
+.data1{
+    margin-top: 20px;
+    height: 130px
 }
