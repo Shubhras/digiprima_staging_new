@@ -1,6 +1,6 @@
 
   <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url{{asset("images/bg-right-img-2.jpg")}}" alt="case study in development" title="case study in development">
+      <section class="title-hero-bg banking-banner" style="background: url({{asset('images/bg-right-img-2.jpg')}}" alt="case study in development" title="case study in development">
 
         <div class="layer container">
             <div class="page-title text-center white-color">
