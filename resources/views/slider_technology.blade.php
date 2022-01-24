@@ -4,7 +4,7 @@
     <div class="container">
       <div class="row">
           <div class="col-sm-12 ">
-          <h2 class="font-size-45 ">Other related<br>
+          <h2 class="font-size-45 " style="margin-left: 190px;">Other related
 <span class="light-gray-col"><span class="green-col" style="color: #ac0e27;">services</span> from us</span></h2>
 <p class="no-margin max-width-inner-850 mar-top-20">Have a quick look at all our other services. We have gained enough experience and expertise to deliver quality solutions in these services too.</p>
           </div>

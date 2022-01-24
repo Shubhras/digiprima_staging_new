@@ -273,7 +273,7 @@
           </div>
         </div></a>
         <!--== Member End ==-->
-        <a href="business-intelligence-consulting" >
+        <a href="data-analytics" >
         <div class="col-md-3 col-sm-12 col-xs-6 wow fadeInRight" data-wow-delay="0.2s">
           <div class="team-member-container gallery-image-hover"> <img src="{{asset('images/data-analytics-foundation.png')}}" class="img-responsive" alt="Data Analytics Foundation" title="Data Analytics Foundation">
            

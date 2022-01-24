@@ -18,6 +18,13 @@ Route::get('/about-us', function () {
 return  view('about') . view('footer2');
 });
 
+// Demo test case
+Route::get('/test', function () {
+    return  view('test') . view('footer2');
+});
+
+// end
+
 Route::get('/loanmoksha', function () {
 return view('head') . view('loanmoksha') . view('footer2');
 });
@@ -246,10 +253,26 @@ return  view('tech.laravel-developer') . view('footer2');
 Route::get('/specialties', function () {
 return  view('services.service') . view('footer2');
 });
+
+// python old page
 Route::get('/python-developer', function () {
 
 return view('tech.python-developer') . view('footer2');
 });
+
+// python new page
+Route::get('/python-developer-new', function () {
+
+    return view('tech.python-developer-new') . view('footer2');
+    });
+
+// Thankyou page
+
+Route::get('/feedback', function () {
+    return  view('tech.thankyou-page') . view('footer2');
+});
+
+// end
 
 Route::get('/node-js-development ', function () {
 return view('tech.nodejs-developer') . view('footer2');
@@ -283,7 +306,13 @@ Route::get('/portfolio2', function () {
 
 
 Route::post('/contact', 'HomeController@contact');
+Route::post('/feedback', 'HomeController@feedback');
 
+
+Route::get('/feedback', function () {
+
+    return  view('tech.thankyou-page') . view('footer2');
+});
 
 Route::get('/contact', function () {
 

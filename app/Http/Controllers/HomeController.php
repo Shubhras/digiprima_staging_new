@@ -43,6 +43,55 @@ class HomeController extends Controller
         return  view('home') . view('footer2');
     }
 
+    public function feedback(Request $request)
+    {
+        // print_r($request->all());die;
+
+
+        //$data = $this->common();
+
+
+        $data1 = array(
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'number' => $request->number,
+            'message' => $request->message,
+        );
+
+        $insert_id = DB::table('contactform1s')->insert($data1);
+        // print_r($insert_id);die;
+        $userEmail = 'info@digiprima.com';
+
+        // $userEmail = '10genjobs@gmail.com';
+
+        // $contact_id = DB::getPDO()->lastInsertId($insert_id);
+
+        // $contact_detail['contactform1s'] = DB::table('contactform1s')->select('contactform1s.*')
+        //     ->where('contactform1s.id', $contact_id)->first();
+        //print_r($contact_detail['contactform1s']);die;
+        if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+            // Send mail to User his new otp
+            Mail::send('emails.send_contact_detail', [
+                'first_name' => $request->name,
+                'email' => $request->email,
+                'phone' => $request->number,
+                'subject' => $request->subject,
+                'message' => $request->message,
+                'last_name' => "",
+                'apply_for' => "",
+                'qualification' => "",
+                'city' => "",
+            ], function ($m) use ($userEmail) {
+                $m->from('info@digiprima.com', 'digiprima.com');
+                $m->to($userEmail, 'Admin')->subject('New job inquiry ');
+            });
+        }
+        // Session()
+        //     ->flash('message', 'Thanks for contact!!');
+
+        return  redirect('/feedback');  
+    }
 
 
     public function contact(Request $request)
@@ -92,7 +141,7 @@ class HomeController extends Controller
         Session()
             ->flash('message', 'Thanks for contact!!');
 
-        return  view('contact1') . view('footer2');
+            return  redirect('/contact');  
     }
 
     public function apply_now(Request $request)

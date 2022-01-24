@@ -438,7 +438,7 @@ h3 {
 }
 
 h4 {
-    font-size: 22px
+    font-size: 18px
 }
 
 h5 {
@@ -557,7 +557,7 @@ hr {
     border: 0;
     height: 1px;
     width: 100%;
-    margin: 20px auto
+    margin: 0px auto
 }
 
 hr.left-line {
@@ -668,7 +668,7 @@ select {
     font-size: 14px;
     padding: 8px 15px;
     width: 100%;
-    margin: 0 0 20px;
+    /* margin: 0 0 20px; */
     max-width: 100%;
     resize: none;
     background-color: transparent;
@@ -736,7 +736,7 @@ select {
 
 section {
     padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     position: relative;
     z-index: 10;
     overflow: hidden
@@ -1827,7 +1827,7 @@ input.search-bar-top:-moz-placeholder {
 }
 
 .font-700 {
-    font-weight: 700
+    font-weight: 400
 }
 
 .font-900 {
@@ -3384,9 +3384,9 @@ fieldset[disabled] .btn {
 }
 
 .btn-dark {
-    color: #fff;
+    color: #04181f;
     border-color: #212121;
-    background-color: #212121
+    background-color: #ffffff
 }
 
 .btn-dark:hover,
@@ -11484,7 +11484,7 @@ section.dark-block.title-hero-bg::before {
 
 .md-input-new:hover {
     background-color: #ffffff;
-    border: 2px solid #000;
+    border: 1px solid #000;
 }
 
 .md-input-new {

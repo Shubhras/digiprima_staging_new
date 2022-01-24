@@ -51,7 +51,8 @@
                 @if(isset($record_name) && isset($record_id))
 					<div class="title">{{ $record_name }} with id {{ $record_id }} not found</div>
 				@else
-					<div class="title">Page not found</div>
+					<div class="title">Page not found - 404</div>
+                    
 				@endif
 				
 				@if(Auth::guest())

@@ -325,7 +325,7 @@ To accomplish this, Warby Parker doubled down on a targeted keyword strategy tha
 <div class="row">
 
 <div class="col-md-2">
-    <img class="fb-img" src="images/sidpic.jpg" alt=""/>
+    <img class="fb-img" src="images/Sidpic.jpg" alt=""/>
 
 </div>
 

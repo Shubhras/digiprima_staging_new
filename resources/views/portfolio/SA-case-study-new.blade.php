@@ -20,8 +20,8 @@ $description= 'The client Street Authority LLC is a research-intensive financial
  </div> -->
 
  <div class="transition-none">
-     <section class="title-hero-bg banking-banner" style="background: url({{asset/images/background/case-study206.jpg}})" alt="case study in development" title="case study in development">
-
+     <section class="title-hero-bg banking-banner" style="background: url({{asset('images/background/case-study206.jpg')}}" alt="case study in development" title="case study in development">
+                                                                      
        <div class="layer container">
            <div class="page-title text-center white-color">
                <h1>Portfolio</h1>

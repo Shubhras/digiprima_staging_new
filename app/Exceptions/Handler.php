@@ -2,6 +2,7 @@
 
 namespace App\Exceptions;
 
+use App\Events\TestingHttpException;
 use Exception;
 use Illuminate\Validation\ValidationException;
 use Illuminate\Auth\Access\AuthorizationException;
@@ -21,6 +22,7 @@ class Handler extends ExceptionHandler
         HttpException::class,
         ModelNotFoundException::class,
         ValidationException::class,
+        TestingHttpException::class,
     ];
 
     /**
@@ -44,7 +46,13 @@ class Handler extends ExceptionHandler
      * @return \Illuminate\Http\Response
      */
     public function render($request, Exception $e)
-    {
+    {   
+        print_r($e->getCode()->getStatus());die;
+        if ($e instanceof TestingHttpException) {
+            return response()->view('errors.testing');
+        }
+        return parent::render($request, $e);
+        
         return parent::render($request, $e);
     }
 }
