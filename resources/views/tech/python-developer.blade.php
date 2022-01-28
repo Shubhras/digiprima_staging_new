@@ -385,7 +385,7 @@ contact form start
                     <div class="help-block with-errors"></div>
 
 
-                    <link rel="stylesheet" href="{{asset('../build/css/intlTelInput.css')}}">
+                    <link rel="stylesheet" href="{{asset('/build/css/intlTelInput.css')}}">
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                     <script src="{{asset('/build/js/intlTelInput.js')}}"></script>
 
