@@ -160,6 +160,15 @@
     height: 466px;
   }
 
+  button.slick-next.slick-arrow {
+    color: #060606;
+    border: 2px solid rgb(8 8 8 / 70%);
+  }
+  button.slick-prev.slick-arrow {
+    color: black;
+    border: 2px solid rgb(8 8 8 / 70%);
+}
+
 
 
   @media (max-width:1100px) and (min-width:700px) {
@@ -180,7 +189,7 @@
     }
 
     h4.mt-0.font-600.dark-color.latest {
-      margin-left: 78px!important;
+      margin-left: 78px !important;
     }
   }
 
@@ -376,9 +385,9 @@ contact form start
                     <div class="help-block with-errors"></div>
 
 
-                    <link rel="stylesheet" href="{{asset('/build/css/intlTelInput.css')}}">
+                    <link rel="stylesheet" href="{{asset('../build/css/intlTelInput.css')}}">
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-                    <script src="/build/js/intlTelInput.js"></script>
+                    <script src="{{asset('/build/js/intlTelInput.js')}}"></script>
 
                     <script>
                       // Vanilla Javascript
@@ -1057,7 +1066,7 @@ contact form start
       <section class="pt-0 pb-0 dark-block">
         <div class="service-slider-2">
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/study1.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/study13.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
@@ -1074,7 +1083,7 @@ contact form start
             </div>
           </div>
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/owl5.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/owl6.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
@@ -1092,7 +1101,7 @@ contact form start
           </div>
 
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/NeuralMarker1.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/NeuralMarker3.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
