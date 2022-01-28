@@ -52,16 +52,13 @@
   }
 
   .pyhtohForm {
-    margin-left: 630px;
-    margin-top: -540px;
     background-color: white;
-    width: 45%;
     border-radius: 10px;
   }
 
-  .new {
+  .title-hero-bg.banking-banner.new {
     position: relative;
-    min-height: 440px !important;
+    min-height: 440px;
   }
 
   .btn-new {
@@ -90,6 +87,13 @@
     border: 2px solid #ad2527 !important;
     background-color: transparent !important;
     padding: 20px 30px !important;
+
+  }
+
+  .btn.btn-md {
+    font-size: 13px !important;
+    box-shadow: 5px 5px 10px #1e1f20;
+
   }
 
   .python-developer {
@@ -104,38 +108,158 @@
     margin-bottom: 15px;
   }
 
-  .section-heading h2 {
-    text-align: left;
+  /* .section-heading h2 {
+    text-align: left; 
     line-height: 0.5em;
-  }
+  } */
 
   .text-left {
     text-align: left;
     margin-left: -28px;
   }
-.post-img{
-  height: auto!important;
-}
-.mb-20{
-  margin-top: 20px;
-}
-  /* .btn-hire {
-    padding: 16px 10px!important;
-    margin-left: 190px!important;
-    font-size: 11px!important;
-    border-radius: 5px!important;
-  } */
+
+  .post-img {
+    height: auto !important;
+  }
+
+  .mb-20 {
+    margin-top: 20px;
+  }
+
+  .banner-h2 {
+    padding-top: 265px;
+  }
+
+  .white-bg .pd-t {
+    padding-top: 90px;
+  }
+
+  .dark-color .font-600 .mt-mb-ml {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+
+  }
+
+  .div-6-new .col-md-4.col-sm-6 div {
+    min-height: 350px;
+    /* background: #ad2527; */
+  }
+
+  .btn.btn-lg {
+
+    margin-left: 87px;
+    margin-top: -43px;
+  }
+
+  .all-padding-50-new {
+    padding: 0px;
+  }
+
+  .height-new-500px {
+    height: 466px;
+  }
 
 
-  /* user agent stylesheet div {
-              display: block;
-            } */
-       
+
+  @media (max-width:1100px) and (min-width:700px) {
+    .title-hero-bg.banking-banner.new {
+      background-position: center !important;
+      background-size: cover;
+      /* background-position: center; */
+
+
+    }
+
+    .banner-h2 {
+      padding-top: 285px;
+    }
+
+    h4.dark-color.font-600.add-cls {
+      margin-left: 80px !important;
+    }
+
+    h4.mt-0.font-600.dark-color.latest {
+      margin-left: 78px!important;
+    }
+  }
+
+  @media (max-width:699px) {
+    .md-input-new {
+      padding-right: 166px !important;
+    }
+
+    button.btn.btn-outline-new.btn-md.btn-square.btn-animate.btn-new {
+      margin-top: -78px;
+      padding: 15px 8px;
+      left: 24px;
+    }
+
+    h5.mt-0.font-600 {
+      text-align: center;
+    }
+
+    i.icon-tools.font-40px.default-color {
+      margin-left: 175px !important;
+    }
+
+    i.icon-layers.font-40px.default-color {
+      margin-left: 175px !important;
+    }
+
+    i.icon-gears.font-40px.default-color {
+      margin-left: 175px !important;
+    }
+
+    i.icon-genius.font-40px.default-color {
+      margin-left: 175px !important;
+    }
+
+    .text-left {
+      text-align: none;
+      margin-left: 0px;
+    }
+
+    .col-md-12.feature-box.mb-10.col-sm-6.col-lg-6 {
+      float: none;
+    }
+
+    .img-11 {
+      margin-bottom: -151px;
+    }
+
+    .fo-66 {
+      font-size: 17px !important;
+      margin-left: 205px;
+    }
+
+    div#modal-popup {
+      width: 423px;
+    }
+
+    a.btn-orange {
+      margin-bottom: -17px;
+    }
+
+    .right-bottom .btn-orange {
+      margin-top: 14px;
+    }
+
+    .title-hero-bg.banking-banner.new {
+      margin-left: -1175px;
+    }
+
+    h2.banner-h2 {
+
+      margin-left: 1180px;
+      margin-top: -175px;
+    }
+  }
 </style>
 <?php
 
-$title = 'Python software development Company | Python Developer';
-$description = 'DigiPrima Technology offers top Python developers, programmers, and software engineers on an hourly, part-time, or full-time contract basis.';
+$title = 'Python Development Company|Python Software Developers USA';
+$description = 'DigiPrima python Development Company in USA. We offer software, mobile, & web application services. Hire top python developers, programmers, engineers.';
 $keyword = 'python development, python development company, hire python developer, python developer, hire dedicated python developer, python programmer, python development, freelance python developer, python development team, hire python development team';
 
 ?>
@@ -150,8 +274,8 @@ $keyword = 'python development, python development company, hire python develope
   <section class="title-hero-bg banking-banner new" style="background: url({{asset('images/pythone-banner.png')}})" alt="python development company" title="python development company">
 
     <div class="container">
-      <div class="page-title text-center white-color" style="margin-top:90px;">
-        <h2 style="padding-top:175px;">Most-Trusted Python Development Company</h2>
+      <div class="page-title text-center white-color">
+        <h2 class="banner-h2">Most-Trusted Python Development Company in USA</h2>
       </div>
     </div>
   </section>
@@ -252,7 +376,7 @@ contact form start
                     <div class="help-block with-errors"></div>
 
 
-                    <link rel="stylesheet" href="/build/css/intlTelInput.css">
+                    <link rel="stylesheet" href="{{asset('/build/css/intlTelInput.css')}}">
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                     <script src="/build/js/intlTelInput.js"></script>
 
@@ -276,6 +400,7 @@ contact form start
                           var countryCode = countryCode.replace(/[^0-9]/g, '')
                           $('#number').val("");
                           $('#number').val("+" + countryCode + " " + $('#number').val());
+                          console.log($("#number").val());
                         });
                       });
                     </script>
@@ -305,7 +430,7 @@ contact form start
               </div>
               <!-- <button type="Submit" id="send-message" style="clear: both;">Send
                       Message</button> -->
-              <div id="loader-icon" style="display:none;"><img src="captcha/img/loader.gif" /></div>
+              <div id="loader-icon" style="display:none;"><img src="{{asset('captcha/img/loader.gif')}}"></div>
 
               <div class="g-recaptcha" data-sitekey="6LcEdBQeAAAAAMOIebvuIxYGGzeDoaWlZUsNPcMe">
                 <!-- <div style="width: 304px; height: 78px;"><div> -->
@@ -407,13 +532,13 @@ contact form start
 
 
           <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Analytics are made easy and flexible to understand because of Python.</h3>
+            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Analytics is designed easy to understand and flexible because of Python.</h3>
           </div>
 
 
 
           <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> All-in-one tools available for easier development and testing.</h3>
+            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> All-in-one tools are available for easier development and testing.</h3>
           </div>
 
         </div>
@@ -460,7 +585,7 @@ contact form start
   </div>
 </section> -->
 
-<section class="white-bg" style="padding-top:90px;">
+<section class="white-bg pd-t">
   <div class="mobile-hide col-md-6  col-sm-12 bg-flex bg-flex-right bagrd">
     <div class=" mobile-hide bg-flex-holder bg-flex-cover" style="background-image: url({{ asset('/images/centers.png') }});margin-top:45px;" title="logistics software solutions development" alt="logistics software solutions development">
 
@@ -802,7 +927,7 @@ contact form start
     </div>
 
     <div class="container">
-      <div class="row">
+      <div class="row div-6-new">
         <!-- <div class="col-sm-12 section-heading service-box-style-01">
           <h3 class="mt-10  default-color font-35px font-700  dark-color">Our Service Offerings</h3>
                    <p class=" font-300 font-16px mb-50">At Digiprima, Our business intelligence consulting services provide companies and enterprises a wealth of business intelligence solutions, leveraging open technology-based Business Intelligence (BI) platforms.</p></div> -->
@@ -810,46 +935,42 @@ contact form start
 
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-mobile font-40px default-color"></i> -->
-            <h4 class="dark-color font-600" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Django</h4>
+            <h4 class="dark-color font-600 add-cls" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Django</h4>
             <p>We are among the top-rated companies working on python that are experts in developing high-performance applications with Django. With years of knowledge and a successful track record of providing best Django development services to our clients across the globe.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-chat font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Flask</h4>
+            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Flask</h4>
             <p>It is a customizable Python outline that is used to build highly-flexible applications. We are one of the top rated python developers that crafts informative, engaging, and responsive apps with a multipurpose flask framework.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-target font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Tornado</h4>
+            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Tornado</h4>
             <p>It is an open source Python web framework and asynchronous networking library, originally developed at FriendFeed. It helps in developing scalable applications with non-blocking HTTP servers and low-level I/O modules .</p>
           </div>
         </div>
-      </div>
-
-
-      <div class="row service-box-style-01">
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-tools-2 font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Zope</h4>
+            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Zope</h4>
             <p>Endorsement with a large community Zope is a renowned python framework that has a famous set of native tools. It has a properly-defined object database that lets you build an application that guarantees errorless security at all levels.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="ion-android-wifi font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Pyramid</h4>
+            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Pyramid</h4>
             <p>It is an overall, open source, web application development framework made in python. With this framework choice, you can expect quick development and easier deployment of applications. We are a top-leading python application development company in the globe.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-lock font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Web2Py</h4>
+            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Web2Py</h4>
             <p>It is an open-source web application framework written in the Python programming language. Supports MVC architectural design, Web2Py is a full-stack outline that helps in building secure, portable, and database-driven applications.</p>
           </div>
         </div>
@@ -859,10 +980,35 @@ contact form start
     </div>
 </section>
 
+<section class="pt-0 pb-0">
+  <div class="col-md-6 col-sm-6 bg-flex bg-flex-right">
+    <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/bg-right-img-11.jpg);" alt="Automating Web Testing with Selenium and Python"></div>
+  </div>
+  <div class="container-fluid">
+    <div class="col-md-6 col-sm-6">
+      <div class="col-inner spacer">
+        <div class="panel-group accordion-style-01" id="accordion-style">
+          <div class="panel">
+            <div class="panel-heading">
+              <a data-toggle="collapse" data-parent="#accordion-style" href="#question1" aria-expanded="false" class="collapsed">
+                <div class="panel-title">
+                  <h3 class="mt-10  default-color font-35px font-700  dark-color">Automating Web Testing with Selenium and Python</h3>
+                  <span class="pull-right"><i class="ion-android-remove"></i></span>
+                </div>
+              </a>
 
+            </div>
+            <div id="question1" class="panel-collapse collapse in" aria-expanded="false" role="tablist">
+              <div class="panel-body mt-0 font-600 dark-color">
+                <h4 class="font-600 dark-color">Build credible and perfect web testing automation with Selenium WebDriver and Python!</h4><br><br>
+                <p>Test automation with Selenium and Python, or developing scripts for running automated test commands against a range of browsers, will be more cost-effective, accurate, and faster than manual testing. Selenium supports Python, and therefore can be used with Python as Selenium Webdriver for testing. The Python APIs strong you to connect with the web browser by Selenium. Selenium is a powerful testing tool that can send standard Python commands to different browsers, despite variations in browsers. Digiprima gives you precise automated web testing solutions with Selenium and Python.</p>
 
+              </div>
+            </div>
+          </div>
+</section>
 
-<!-- <section class="grey-bg" style="padding-top: 15px;padding-bottom: 20px;">
+<section class="grey-bg" style="padding-top: 15px;padding-bottom: 20px;">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 section-heading">
@@ -872,169 +1018,196 @@ contact form start
       </div>
     </div>
   </div>
-</section> -->
+</section>
 <section class="white-bg">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 section-heading">
-          <h5 class="text-uppercase default-color mt-0">So what's new</h5>
-          <h3 class="roboto-font font-400">Brands are built around stories. <br>Here are a few of our own</h3>
-        </div>
-      </div>
-      <div class="row mt-50">
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
-          <div class="post">
-          
-            <div class="post-info pt-20 pb-20 digi-blog">
-              <h3>— The Official SpyFu Blog —</h3>
-              <h2>Case Study</h2>
-             <!--  <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"></path></svg>
-</div> -->
-              <hr>
-
-            <div class="read-next-card-content">
-                        <ul>
-                            <li><a href="/blog/allbirds-weaves-branding-and-seo/">Allbirds Weaves its Brand-building Expertise into SEO and Google Ads</a></li>
-                            <li><a href="/blog/intercom-content-strategy-leader/">How Intercom's Content Strategy Helped Them Become a Leader in Website Chat</a></li>
-                            <li><a href="/blog/mailchimps-conversion-content-strategy/">Mailchimp's Secret Content Strategy Convinces Freemium Users to Upgrade to Paid</a></li>
-                        </ul>
-                    </div>
-             <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a>  </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/loanmoksha.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-            <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="loanmoksha-case-study" target="blank"> LoanMoksha largest loan & card marketplace</a></h3>
-              <h6 style="margin-left:10px;"> April 19, 2014</h6>
-              <hr>
-            
-              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="mdout-case-study">MDout healthcare research and analutics company</a></h3>
-              <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
-              <hr>
-             </span> </p>
-              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/my-thana-app.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="my-thana-app-case-study">My Thana App India's First Police App with Video Call</a></h3>
-              <h6 style="margin-left:10px;">November 18, 2016</h6>
-              <hr>
-              <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
-              <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-            <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="bethite-case-study" target="blank"> BetHite Peer to Peer Sports Betting Platform</a></h3>
-              <h6 style="margin-left:10px;"> April 19, 2014</h6>
-              <hr>
-            
-              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/finaceexchange.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="finexchange-case-study">Finexchange Online Syndication Desk</a></h3>
-              <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
-              <hr>
-             </span> </p>
-              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="scholly-me-case-study">SchollyMe Social Platform for Athletes & Coaches</a></h3>
-              <h6 style="margin-left:10px;">November 18, 2016</h6>
-              <hr>
-              <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
-              <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/lekumeia.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-            <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="llstnt-case-study" target="blank"> Leukemia & Lymphoma Society leukemia Team</a></h3>
-              <h6 style="margin-left:10px;"> April 19, 2014</h6>
-              <hr>
-            
-              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="sa-case-study">Street Authority Stock Quotes, Stock Tips</a></h3>
-              <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
-              <hr>
-             </span> </p>
-              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-          <div class="post">
-            <div class="post-img"> <img class="img-responsive" src="{{asset('images/fashtique.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-            <div class="post-info pt-20 pb-20">
-              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="screen-builder-case-study">Digital Signage Screen Builder</a></h3>
-              <h6 style="margin-left:10px;">November 18, 2016</h6>
-              <hr>
-              <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
-              <a class="readmore" href="#"><span>Read More</span></a>  -->
-              </div>
-          </div>
-        </div>
-        <!--== Post End ==-->
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 section-heading">
+        <h5 class="text-uppercase default-color mt-0">So what's new</h5>
+        <h3 class="roboto-font font-400">Brands are built around stories. <br>Here are a few of our own</h3>
       </div>
     </div>
-  </section>
+    <div class="row mt-50">
+      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="post">
+
+          <div class="post-info pt-20 pb-20 digi-blog height-500px">
+            <!-- <h3>— The Official SpyFu Blog —</h3> -->
+            <h2 class="mb-50">Case Study</h2>
+            <!--  <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"></path></svg>
+</div> -->
+            <hr>
+
+            <div class="read-next-card-content">
+              <ul>
+                <li><a href="Telaqua-case-study">TELAQUA - SMART AGRICULTURE & IRRIGATION (IOT)</a></li>
+                <li><a href="owl-case-study"> Remote Monitoring Solution For Propane Dealers</a></li>
+                <li><a href="neuralmarker-case-study">Annotation And Training Data Platform For Computer Vision</a></li>
+              </ul>
+            </div>
+            <!-- <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a> -->
+          </div>
+        </div>
+      </div>
+      <!--== Post End ==-->
+
+
+
+
+      <section class="pt-0 pb-0 dark-block">
+        <div class="service-slider-2">
+          <div class="slide">
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/study1.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="hero-text-wrap height-650px">
+              <div class="hero-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="white-color default-bg all-padding-50-new">
+                        <h4 class="font-700" style="font-size: 36px;"><a href="Telaqua-case-study target=" __blank"> TELAQUA - SMART AGRICULTURE & IRRIGATION (IOT).</h4></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slide">
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/owl5.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="hero-text-wrap height-650px">
+              <div class="hero-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="white-color default-bg all-padding-50-new">
+                        <h3 class="font-700" style="font-size: 38px;"><a href="owl-case-study">Remote Monitoring Solution For Propane Dealers.</h3></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide">
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/NeuralMarker1.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="hero-text-wrap height-650px">
+              <div class="hero-text">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-4">
+                      <div class="white-color default-bg all-padding-50-new">
+                        <h3 class="font-700" style="font-size: 38px;"><a href="neuralmarker-case-study">Annotation And Training Data Platform For Computer Vision.</h3></a>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!--== Sliders Style 02 End ==-->
+
+
+
+
+
+
+
+
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="post">
+          <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+          <div class="post-info pt-20 pb-20">
+            <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="bethite-case-study" target="blank"> BetHite Peer to Peer Sports Betting Platform</a></h3>
+            <h6 style="margin-left:10px;"> April 19, 2014</h6>
+            <hr> -->
+
+      <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+      <!-- </div>
+        </div>
+      </div> -->
+      <!--== Post End ==-->
+
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="post">
+          <div class="post-img"> <img class="img-responsive" src="{{asset('images/finaceexchange.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+          <div class="post-info pt-20 pb-20">
+            <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="finexchange-case-study">Finexchange Online Syndication Desk</a></h3>
+            <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
+            <hr>
+            </span> </p> -->
+      <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+      <!-- </div>
+        </div>
+      </div> -->
+      <!--== Post End ==-->
+
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="post">
+          <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+          <div class="post-info pt-20 pb-20">
+            <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="scholly-me-case-study">SchollyMe Social Platform for Athletes & Coaches</a></h3>
+            <h6 style="margin-left:10px;">November 18, 2016</h6>
+            <hr> -->
+      <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
+              <a class="readmore" href="#"><span>Read More</span></a>  -->
+      <!-- </div>
+        </div>
+      </div> -->
+      <!--== Post End ==-->
+
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+        <div class="post">
+          <div class="post-img"> <img class="img-responsive" src="{{asset('images/lekumeia.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+          <div class="post-info pt-20 pb-20">
+            <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="llstnt-case-study" target="blank"> Leukemia & Lymphoma Society leukemia Team</a></h3>
+            <h6 style="margin-left:10px;"> April 19, 2014</h6>
+            <hr> -->
+
+      <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+      <!-- </div>
+        </div>
+      </div> -->
+      <!--== Post End ==-->
+
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+        <div class="post">
+          <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+          <div class="post-info pt-20 pb-20">
+            <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="sa-case-study">Street Authority Stock Quotes, Stock Tips</a></h3>
+            <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
+            <hr>
+            </span> </p> -->
+      <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+      <!-- </div>
+        </div>
+      </div> -->
+      <!--== Post End ==-->
+
+      <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+        <div class="post">
+          <div class="post-img"> <img class="img-responsive" src="{{asset('images/fashtique.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+          <div class="post-info pt-20 pb-20">
+            <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="screen-builder-case-study">Digital Signage Screen Builder</a></h3>
+            <h6 style="margin-left:10px;">November 18, 2016</h6>
+            <hr> -->
+      <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
+              <a class="readmore" href="#"><span>Read More</span></a>  -->
+      <!-- </div>
+        </div>
+      </div> -->
+      <!--== Post End ==-->
+
+
+    </div>
+  </div>
+</section>
 
 
 
@@ -1043,7 +1216,7 @@ contact form start
   <div class="container">
 
     <div class="row">
-      <h3 style="">Awarded By</h3>
+      <h3 class="mt-50">Awarded By</h3>
 
       <div class="text-center mt-20 col-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
         <div class="client-slider slick">

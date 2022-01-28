@@ -209,14 +209,14 @@ img.img-fluid.z-depth-1-half.rounded-circle {
 
 <div class="right-bottom" id="modal-popup">
         <div class="row">
-            <div class="col-md-4">
-                <img src="{{asset('images/clutch-logo.webp')}}" alt="Digiprima">
+            <div class="col-md-4 col-sm-4 col-lg-4">
+                <img class="img-11"src="{{asset('images/clutch-logo.webp')}}" alt="Digiprima">
             </div>
-            <div class="col-md-8">
+            <div class="col-md-8 col-sm-8 col-lg-8">
                 <div class="">
                     <a href="javascript:void(0)" class="close" data-dismiss="right-bottom" onclick="hide()" aria-label="close">×</a>
                 </div>
-                <h6>Accelerate Your Analytics Success With Our Free Discovery Workshop</h6>
+                <h6 class="fo-66">Accelerate Your Analytics Success With Our Free Discovery Workshop</h6>
                 <a href="{{asset('https://calendly.com/shubhra-s/30min?month=2022-01')}}" target="__blank" class="btn-orange">BOOK A SESSION</a>
             </div>
         </div>

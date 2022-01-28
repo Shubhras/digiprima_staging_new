@@ -173,6 +173,18 @@ Route::get('/LLSTNT-Case-study', function(){
 
 });
 
+Route::get('/Telaqua-case-study', function(){
+    return view('head') . view('casestudy.Telaqua-case-study') . view('footer2');
+});
+
+Route::get('/owl-case-study', function(){
+    return view('head') . view('casestudy.owl-case-study') . view('footer2');
+});
+
+Route::get('/neuralmarker-case-study', function(){
+    return view('head') . view('casestudy.NeuralMarker-case-study') . view('footer2');
+});
+
 // portfolio -route 
 
 Route::get('/portfolio', function(){

@@ -11,10 +11,10 @@
     <div class="_body">
         <div class="_box">
             <h2>
-                <strong>Please check your email</strong> for further instructions on how to complete your account setup.
+            <strong>Thanks for getting in touch with </strong>DigiPrima. We'll make sure the right person replies as soon as possible.
             </h2>
             <p>
-                Thanks a bunch for filling that out. It means a lot to us, just like you do! We really appreciate you giving us a moment of your time today. Thanks for being you.
+            You can also mail us at info@digiprima.com to start a Conversation about your project straight away.
             </p>
         </div>
     </div>
