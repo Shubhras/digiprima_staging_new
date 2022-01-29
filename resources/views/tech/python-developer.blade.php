@@ -164,10 +164,15 @@
     color: #060606;
     border: 2px solid rgb(8 8 8 / 70%);
   }
+
   button.slick-prev.slick-arrow {
     color: black;
     border: 2px solid rgb(8 8 8 / 70%);
-}
+  }
+
+  h2.mt-10.font-700.roboto-font.abouth2 {
+    margin-top: -5px !important;
+  }
 
 
 
@@ -263,6 +268,10 @@
       margin-left: 1180px;
       margin-top: -175px;
     }
+
+    a.btn.btn-outline.btn-md.btn-square.btn-animate.btn-get.btn-get-style {
+      font-size: 11px!important;
+    }
   }
 </style>
 <?php
@@ -299,7 +308,7 @@ contact form start
       <div class="col-md-3"> -->
 
 
-<section class="grey-bg" style="padding-top:35px; padding-bottom:70PX; background: whitesmoke;">
+<section class="grey-bg" style="padding-top:35px; padding-bottom:18PX; background: whitesmoke;">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -406,7 +415,7 @@ contact form start
                       $(document).ready(function() {
                         $('.iti__flag-container').click(function() {
                           var countryCode = $('.iti__selected-flag').attr('title');
-                          var countryCode = countryCode.replace(/[^0-9]/g, '')
+                          var countryCode = countryCode.replace(/[^0-15]/g, '')
                           $('#number').val("");
                           $('#number').val("+" + countryCode + " " + $('#number').val());
                           console.log($("#number").val());
@@ -1073,7 +1082,6 @@ contact form start
                   <div class="row">
                     <div class="col-md-4">
                       <div class="white-color default-bg all-padding-50-new">
-                        <h4 class="font-700" style="font-size: 36px;"><a href="Telaqua-case-study target=" __blank"> TELAQUA - SMART AGRICULTURE & IRRIGATION (IOT).</h4></a>
 
                       </div>
                     </div>
@@ -1090,7 +1098,6 @@ contact form start
                   <div class="row">
                     <div class="col-md-4">
                       <div class="white-color default-bg all-padding-50-new">
-                        <h3 class="font-700" style="font-size: 38px;"><a href="owl-case-study">Remote Monitoring Solution For Propane Dealers.</h3></a>
 
                       </div>
                     </div>
@@ -1101,14 +1108,13 @@ contact form start
           </div>
 
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/NeuralMarker3.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/NeuralMarker4.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-4">
                       <div class="white-color default-bg all-padding-50-new">
-                        <h3 class="font-700" style="font-size: 38px;"><a href="neuralmarker-case-study">Annotation And Training Data Platform For Computer Vision.</h3></a>
 
                       </div>
                     </div>
