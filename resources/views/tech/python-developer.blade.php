@@ -91,7 +91,7 @@
   }
 
   .btn.btn-md {
-    font-size: 13px !important;
+    font-size: 13px;
     box-shadow: 5px 5px 10px #1e1f20;
 
   }
@@ -174,6 +174,57 @@
     margin-top: -5px !important;
   }
 
+  i.icon-tools.font-40px.default-color {
+    margin-left: 85px;
+  }
+
+  i.icon-layers.font-40px.default-color {
+    margin-left: 65px;
+  }
+
+  i.icon-layers.font-40px.default-color {
+    margin-left: 85px;
+  }
+
+  i.icon-gears.font-40px.default-color {
+    margin-left: 65px;
+  }
+
+  i.icon-gears.font-40px.default-color {
+    margin-left: 72px;
+  }
+
+  i.icon-genius.font-40px.default-color {
+    margin-left: 65px;
+  }
+
+  .dark-color .font-600 .add-cls {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+
+  }
+
+  h4.dark-color.font-600.add-cls {
+    margin-top: -17px;
+    margin-bottom: 10px;
+    margin-left: 114px;
+  }
+
+  h4.mt-0.font-600.dark-color.latest {
+    margin-top: -17px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+
+  }
+
+  h4.mt-0.font-600.dark-color.latest {
+    margin-top: -15px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+
+  }
+
 
 
   @media (max-width:1100px) and (min-width:700px) {
@@ -190,11 +241,13 @@
     }
 
     h4.dark-color.font-600.add-cls {
-      margin-left: 80px !important;
+      margin-left: 80px;
+      margin-top: -17px;
+      margin-bottom: 10px;
     }
 
     h4.mt-0.font-600.dark-color.latest {
-      margin-left: 78px !important;
+      margin-left: 78px;
     }
   }
 
@@ -214,19 +267,19 @@
     }
 
     i.icon-tools.font-40px.default-color {
-      margin-left: 175px !important;
+      margin-left: 175px;
     }
 
     i.icon-layers.font-40px.default-color {
-      margin-left: 175px !important;
+      margin-left: 175px;
     }
 
     i.icon-gears.font-40px.default-color {
-      margin-left: 175px !important;
+      margin-left: 175px;
     }
 
     i.icon-genius.font-40px.default-color {
-      margin-left: 175px !important;
+      margin-left: 175px;
     }
 
     .text-left {
@@ -270,8 +323,144 @@
     }
 
     a.btn.btn-outline.btn-md.btn-square.btn-animate.btn-get.btn-get-style {
-      font-size: 11px!important;
+      font-size: 11px;
     }
+
+  }
+
+  @media (max-width:380px) and (min-width:320px) {
+    .right-bottom .btn-orange {
+      width: 75% !important;
+      margin-left: 100px;
+      margin-top: -15px;
+    }
+
+    .right-bottom h6 {
+
+      margin-top: -18 !important;
+      width: 52%;
+
+    }
+
+    img.img-11 {
+      width: 94px;
+      margin-left: 86px;
+      margin-top: -18px;
+    }
+
+    button.btn.btn-outline-new.btn-md.btn-square.btn-animate.btn-new {
+      margin-top: 12px;
+      margin-right: 101px;
+    }
+
+    i.icon-tools.font-40px.default-color {
+      margin-left: 122px;
+    }
+
+    i.icon-layers.font-40px.default-color {
+      margin-left: 122px;
+    }
+
+    i.icon-gears.font-40px.default-color {
+      margin-left: 122px;
+    }
+
+    i.icon-genius.font-40px.default-color {
+      margin-left: 122px;
+    }
+
+    a.btn.btn-outline.btn-md.btn-square.btn-animate.btn-get.btn-get-style {
+      width-: 119%;
+      width: 100%;
+      margin-left: 0px;
+      font-size: 8px;
+    }
+
+    h4.dark-color.font-600.add-cls {
+      margin-top: -17px;
+      margin-bottom: 10px;
+      margin-left: 62px;
+    }
+
+    h4.mt-0.font-600.dark-color.latest {
+      margin-top: -17px;
+      margin-bottom: 10px;
+      margin-left: 68px;
+    }
+  }
+
+  @media (max-width:380px) and (min-width:325px) {
+    button.btn.btn-outline-new.btn-md.btn-square.btn-animate.btn-new {
+      margin-right: 144px;
+    }
+
+    img.img-11 {
+      margin-left: 42px;
+    }
+
+    .right-bottom .btn-orange {
+      margin-left: 71px;
+    }
+
+    h6.fo-66 {
+      margin-left: 151px;
+    }
+
+    i.icon-genius.font-40px.default-color {
+      margin-left: 145px;
+    }
+
+    i.icon-tools.font-40px.default-color {
+      margin-left: 145;
+    }
+
+    i.icon-layers.font-40px.default-color {
+      margin-left: 145;
+    }
+
+    i.icon-gears.font-40px.default-color {
+      margin-left: 145px;
+    }
+
+    h4.dark-color.font-600.add-cls {
+
+      margin-left: 89px;
+    }
+
+    h4.mt-0.font-600.dark-color.latest {
+      margin-left: 87px;
+    }
+  }
+
+  @media (max-width:780px) and (min-width:500px) {
+    i.icon-tools.font-40px.default-color {
+      margin-left: 40px;
+    }
+
+    i.icon-layers.font-40px.default-color {
+      margin-left: 40px;
+    }
+
+    i.icon-gears.font-40px.default-color {
+      margin-left: 40px;
+    }
+
+    i.icon-genius.font-40px.default-color {
+      margin-left: 40px;
+    }
+
+    h4.dark-color.font-600.add-cls {
+      margin-left: 100px;
+    }
+
+    h4.mt-0.font-600.dark-color.latest {
+      margin-left: 100px;
+    }
+
+    .iti.iti--allow-dropdown {
+      width: 100%;
+    }
+
   }
 </style>
 <?php
@@ -617,25 +806,25 @@ contact form start
         <div class="row mt-70">
           <div class="row">
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
-              <i class="icon-tools font-40px default-color" style="margin-left: 85px;"></i>
+              <i class="icon-tools font-40px default-color"></i>
 
               <h5 class="mt-0 font-600">Python Software Development & Python PHP Integration</h5>
               <!-- <p class="">Make the solution mobile so the ever-moving industry can have everything on-the-go.</p> -->
             </div>
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
-              <i class="icon-layers font-40px default-color" style="margin-left: 65px;"></i>
+              <i class="icon-layers font-40px default-color"></i>
               <h5 class="mt-0 font-600">Python CMS development & Unit Testing</h5>
               <!-- <p class="">Have the bifurcated data which will as such lead to advanced customer behavior analysis</p> -->
             </div>
           </div>
           <div class="row">
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
-              <i class="icon-layers font-40px default-color" style="margin-left: 85px;"></i>
+              <i class="icon-layers font-40px default-color"></i>
               <h5 class="mt-0 font-600">Maintenance and Support for Python & Security</h5>
               <!-- <p class="">Take all your data with you as you move with our cloud consultation and service</p> -->
             </div>
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
-              <i class="icon-gears font-40px default-color" style="margin-left: 65px;"></i>
+              <i class="icon-gears font-40px default-color"></i>
               <h5 class="mt-0 font-600">Custom Python GUI Development</h5>
               <!-- <p class="">The various software will be working in close tandem with each other and deliberating efficient results.</p> -->
 
@@ -643,7 +832,7 @@ contact form start
           </div>
           <div class="row">
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
-              <i class="icon-gears font-40px default-color" style="margin-left: 85px;"></i>
+              <i class="icon-gears font-40px default-color"></i>
               <h5 class="mt-0 font-600">Python Consulting Services</h5>
 
               <!-- <p class="">Let the tools interact and learn to draw behavioral analytics that will help in drawing better results.</p> -->
@@ -652,7 +841,7 @@ contact form start
             </div>
 
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
-              <i class="icon-genius font-40px default-color" style="margin-left: 65px;"></i>
+              <i class="icon-genius font-40px default-color"></i>
               <h5 class="mt-0 font-600">Python Migrations</h5>
               <!-- <p class=" ">Let the chatbots do human interaction and lead them to the most suitable option.</p> -->
 
@@ -953,42 +1142,42 @@ contact form start
 
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-mobile font-40px default-color"></i> -->
-            <h4 class="dark-color font-600 add-cls" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Django</h4>
+            <h4 class="dark-color font-600 add-cls">Django</h4>
             <p>We are among the top-rated companies working on python that are experts in developing high-performance applications with Django. With years of knowledge and a successful track record of providing best Django development services to our clients across the globe.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-chat font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Flask</h4>
+            <h4 class="mt-0 font-600 dark-color latest">Flask</h4>
             <p>It is a customizable Python outline that is used to build highly-flexible applications. We are one of the top rated python developers that crafts informative, engaging, and responsive apps with a multipurpose flask framework.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-target font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Tornado</h4>
+            <h4 class="mt-0 font-600 dark-color latest">Tornado</h4>
             <p>It is an open source Python web framework and asynchronous networking library, originally developed at FriendFeed. It helps in developing scalable applications with non-blocking HTTP servers and low-level I/O modules .</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-tools-2 font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Zope</h4>
+            <h4 class="mt-0 font-600 dark-color latest">Zope</h4>
             <p>Endorsement with a large community Zope is a renowned python framework that has a famous set of native tools. It has a properly-defined object database that lets you build an application that guarantees errorless security at all levels.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="ion-android-wifi font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Pyramid</h4>
+            <h4 class="mt-0 font-600 dark-color latest">Pyramid</h4>
             <p>It is an overall, open source, web application development framework made in python. With this framework choice, you can expect quick development and easier deployment of applications. We are a top-leading python application development company in the globe.</p>
           </div>
         </div>
         <div class="col-md-4 col-sm-6">
           <div class="feature-box text-left mb-50 feature-box-rounded center-feature border-radius-10">
             <!-- <i class="icon-lock font-40px default-color"></i> -->
-            <h4 class="mt-0 font-600 dark-color latest" style="margin-top: -15px; margin-bottom: 10px; margin-left: 105px;">Web2Py</h4>
+            <h4 class="mt-0 font-600 dark-color latest">Web2Py</h4>
             <p>It is an open-source web application framework written in the Python programming language. Supports MVC architectural design, Web2Py is a full-stack outline that helps in building secure, portable, and database-driven applications.</p>
           </div>
         </div>
