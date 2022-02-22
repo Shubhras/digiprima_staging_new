@@ -11,7 +11,7 @@ $imagetag_url="images/thumbmail/digiprima-image.png";
 
 <div class="transition-none">
       
-      <section class="title-hero-bg parallax-effect" style="background: url({{ asset('images/phpbannernew.png') }});  background-size: auto 100%; background-repeat: no-repeat;" title="php website developers" alt="php website developers">
+      <section class="title-hero-bg parallax-effect" style="background: url({{ asset('images/phpbanner_new1.png') }}); title="php website developers" alt="php website developers">
         <div class="container">
             <div class="page-title text-center white-color">
 <!--                 <h1>PHP Development Company</h1>

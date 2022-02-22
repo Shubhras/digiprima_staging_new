@@ -10,11 +10,8 @@ $imagetag_url="images/thumbmail/banner-android.jpg";
 
 @include('head')
 
-
-
-
 <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/bi.jpg') }}">
+      <section class="title-hero-bg banking-banner" style="background: url(images/bi.jpg);">
 
         <div class="layer container">
             <div class="page-title text-center white-color">

@@ -13,10 +13,10 @@ It has become a better option for developers who look for a simple programming l
 
 <div class="transition-none">
       
-      <section class="title-hero-bg parallax-effect" style="background: url({{ asset('images/reactjsbanner.png') }});  background-size: auto 100%; background-repeat: no-repeat;" title="React-js Development" alt="React js Development">
+      <section class="title-hero-bg parallax-effect" style="background: url({{ asset('images/reactjsbanner.png') }});  title="React-js Development" alt="React js Development">
         <div class="container">
             <div class="page-title text-center white-color">
-                <h1 style="padding-top: 150px;">ReactJS Development</h1>
+                <h1 style="padding-top: 200px; margin-left: -144px;">ReactJS Development</h1>
                   
             </div>
         </div>

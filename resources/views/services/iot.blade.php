@@ -80,8 +80,8 @@
 
 <?php 
 
- $title ='IoT  Application Development Services';
- $description= 'description" content="IoT application development company provides IoT application development solutions & services. DigiPrima is considered as a top rated IoT development company ';
+ $title ='IOT Software Development Services | IOT App Development | DigiPrima';
+ $description= 'IOT software development agency provides IoT web and app development solutions & services. DigiPrima is considered as a top rated IoT development company in India. ';
  $keyword = 'iot healthcare software, iot application development, iot development services, iot application development new york, iot app development, iot application development los angeles, iot software development services, lasangelesiot developer, iot application development services, healthcare iot software, iot supply chain solutions, iot software development company, iot in operations management, iot application service';
 $imagetag_url="images/thumbmail/banner-android.jpg";
 
@@ -93,11 +93,11 @@ $imagetag_url="images/thumbmail/banner-android.jpg";
 
 
 <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/iotmain-banner.jpg') }}">
+      <section class="title-hero-bg banking-banner" style="background: url('images/iotmain-banner.jpg')">
 
         <div class="layer container">
             <div class="page-title text-center white-color">
-                <h1> Internet Of Things</h1>
+                <h1> IOT Development Services</h1>
                     <h5 class="roboto-font font-300" style="margin-top: -5px;">One of the powerful sectors where Blockchain Technology has made a splash is in the Fintech Industry</h5>
             </div>
         </div>
@@ -187,6 +187,27 @@ $imagetag_url="images/thumbmail/banner-android.jpg";
 
     </div>
   </section>
+
+
+  <section class="grey-bg" style="padding-top: 75px;padding-bottom: 20px;">
+  <div class=" container">
+    <div class="row">
+      <div class="col-sm-12 section-heading">
+
+        <h3 class="default-color mt-0 text-uppercase font-35px ">IOT Software Development Company</h3>
+        <p class="sectionp">Nowadays IoT as a concept has grown rapidly, and it is applicable in every industry domain. With Internet-connected devices, we try to keep pace with the current technology trends and deliver top-notch IoT software development solutions.</p>
+
+
+        <!-- <p class="sectionp2">The swift technological improvements have changed the global banking and finance industry entirely over the past decade.<br> The customer demands in this sector are raising, newer competitors are coming in the market and the regulatory authorities are making the rules difficult to follow. Battling all this and still keeping the growth pace high is dependent largely upon the technical handshaking with the process and operations.</p> -->
+
+
+      </div>
+      <br />
+
+
+    </div>
+  </div>
+</section>
 
 
 

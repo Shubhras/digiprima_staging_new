@@ -1,5 +1,5 @@
 <?php
-
+use Illuminate\Support\Facades\Route;
 /* ================== Homepage ================== */
 Route::get('/', 'HomeController@index');
 Route::get('/home', 'HomeController@index');
@@ -81,9 +81,6 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	Route::resource(config('laraadmin.adminRoute') . '/categories', 'LA\CategoriesController');
 	Route::get(config('laraadmin.adminRoute') . '/category_dt_ajax', 'LA\CategoriesController@dtajax');
 
-	/* ================== Contactform1s ================== */
-	Route::resource(config('laraadmin.adminRoute') . '/contactform1s', 'LA\Contactform1sController');
-	Route::get(config('laraadmin.adminRoute') . '/contactform1_dt_ajax', 'LA\Contactform1sController@dtajax');
 
 	/* ================== Applynows ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/applynows', 'LA\ApplynowsController');
@@ -96,4 +93,13 @@ Route::group(['as' => $as, 'middleware' => ['auth', 'permission:ADMIN_PANEL']], 
 	/* ================== MeetingHomes ================== */
 	Route::resource(config('laraadmin.adminRoute') . '/meetinghomes', 'LA\MeetingHomesController');
 	Route::get(config('laraadmin.adminRoute') . '/meetinghome_dt_ajax', 'LA\MeetingHomesController@dtajax');
+
+	/* ================== MataDatas ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/matadatas', 'LA\MataDatasController');
+	Route::get(config('laraadmin.adminRoute') . '/matadata_dt_ajax', 'LA\MataDatasController@dtajax');
+
+	/* ================== Contacts ================== */
+	Route::resource(config('laraadmin.adminRoute') . '/contacts', 'LA\ContactsController');
+	Route::get(config('laraadmin.adminRoute') . '/contact_dt_ajax', 'LA\ContactsController@dtajax');
+
 });

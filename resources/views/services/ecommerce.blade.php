@@ -78,8 +78,8 @@
 </script>
 <?php 
 
- $title ='Professional Ecommerce Software Development company | Custom Software Development Services for Ecommerce';
- $description= 'Are you looking for top eCommerce development companies in USA? Regain the Control of Your Business with Retail and eCommerce Solutions from DigiPrima Technologies, a leading eCommerce development company.';
+ $title ='Ecommerce Software Development company | Service | Application Solutions';
+ $description= 'Are you looking for a top ECommerce Software Development company? Regain Control of Your Business with Custom Retail and eCommerce Solutions from DigiPrima Technologies. Digiprima provides you best eCommerce Software development services and solutions.';
  $keyword = 'ecommerce development company New York, best e commerce websites development company, ecommerce software development, web development company usa, ecommerce solutions company, list of e commerce companies in usa, list of small ecommerce companies in usa, application development company in usa, ecommerce development company clutch';
 
 ?>
@@ -89,7 +89,7 @@
       <section class="title-hero-bg parallax-effect" style="background: url({{asset('images/page/ecommbanner2.jpg') }});  background-size:cover; background-repeat: no-repeat;" title="ecommerce software company" alt="ecommerce software company">
         <div class="container">
             <div class="page-title text-center white-color">
-                <h1>eCommerce Development</h1>
+                <h1>eCommerce Development Services</h1>
                  <h4 class="mt-30"style="margin-top: -5px">Specialized technology, consulting and development <br>solutions for eCommerce Industry!</h4>
             </div>
         </div>
@@ -104,7 +104,7 @@
            <!--  <h5 class="text-uppercase mt-0">About Our Agency</h5>
             <h4 class="roboto-font font-400">Specialized technology, consulting and development solutions for Retail and eCommerce Industry! <br><span class="default-color font-700 text-uppercase">best quality</span> Websites & online marketing proven to enhance  for <span class="default-color font-700 text-uppercase">our customers.</span></h4>
  -->
-<h3 class="default-color mt-0 text-uppercase font-35px">About Our Agency</h3>
+<h2 class="default-color mt-0 text-uppercase font-35px">eCommerce Development Services</h2>
           <p>Specialized technology, consulting and development solutions for Retail and eCommerce Industry! <br>best quality Websites & online marketing proven to enhance  for  <span class="default-color font-700 text-uppercase">our customers.</span></p>
           
 
@@ -344,6 +344,29 @@
      </div>
     </div>
   </section>
+
+
+
+
+  <section class="pt-0 pb-0 " style="background-color: #623553;">
+  <div class="container-fluid">
+    <div class="row row-flex flex-center">
+      <div class="col-md-5 col-sm-12 bg-flex-cover" style="background-image: url(assets/images/bg-left-img-3.jpg);" title="Moodle Customization" alt="Moodle Customization"></div>
+      <div class="col-md-7 col-sm-12">
+        <div class="col-inner spacer">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-1">
+              <h2 class=" white-color font-700 mt-0 text-uppercase" style="font-size: 20px;">ECommerce Software & Mobile App Development Company Offering Next-Gen Retail Solutions</h2>
+              <hr class="default-bg left-line bold-line">
+              <h5 class=" white-color mt-40 font-600" style="font-size: 16px;">We help customers increase sales, we always focus on our customer satisfaction, we assure you that your software application is developed with a strong business strategy and pursues top-class development technology. In this competitive world, every business wants to be ahead. It demands customized, professional, enterprise-grade eCommerce software, web, and mobile app development services. We, at Digiprima. Combine our eCommerce development skills with advanced and latest technologies to find critical requirements of clients across industries worldwide.</h5>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 

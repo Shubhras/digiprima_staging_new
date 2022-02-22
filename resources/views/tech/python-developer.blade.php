@@ -1,3 +1,44 @@
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "shubhra shrivastava",
+    "disambiguatingDescription": "47 W 13th St, New York, NY 10011 USA",
+    "url": "https://www.digiprima.com/about-us",
+    "image": "https://media.licdn.com/dms/image/C5103AQE_rfASFC29ZA/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=H1pvYOjtyrunqNbfvk6fQwBvFI2ARFSz4EWQnQBQRfA",
+    "logo": "https://www.digiprima.com/public/images/dg-logo.png"
+    "sameAs": [
+      "https://www.facebook.com/shubhra.shrivastava",
+      "https://twitter.com/shubhra_21",
+      "https://www.linkedin.com/in/shubhrashrivastava/"
+    ],
+    "jobTitle": "CEO",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "DigiPrima"
+    }
+
+  } <
+  script type = "application/ld+json" > {
+    "@context": "https://schema.org/",
+    "@type": "Person",
+    "name": "shubhra shrivastava",
+    "disambiguatingDescription": "47 W 13th St, New York, NY 10011 USA",
+    "url": "https://www.digiprima.com/about-us",
+    "image": "https://media.licdn.com/dms/image/C5103AQE_rfASFC29ZA/profile-displayphoto-shrink_200_200/0?e=1582761600&v=beta&t=H1pvYOjtyrunqNbfvk6fQwBvFI2ARFSz4EWQnQBQRfA",
+    "sameAs": [
+      "https://www.facebook.com/shubhra.shrivastava",
+      "https://twitter.com/shubhra_21",
+      "https://www.linkedin.com/in/shubhrashrivastava/"
+    ],
+    "jobTitle": "CEO",
+    "worksFor": {
+      "@type": "Rating Review",
+      "name": "DigiPrima"
+    }
+
+  }
+</script>
 <style>
   .g-recaptcha {
     width: 304px;
@@ -19,7 +60,7 @@
     margin: 10px 25px;
     padding: 0px;
     resize: none;
-    /* display: none; */
+
 
   }
 
@@ -33,10 +74,7 @@
     color: #000;
   }
 
-  /* .rc-anchor-normal {
-              height: 74px;
-              width: 300px;
-            } */
+
 
   .rc-anchor {
     border-radius: 3px;
@@ -54,6 +92,10 @@
   .pyhtohForm {
     background-color: white;
     border-radius: 10px;
+  }
+
+  .col-md-6.pyhtohForm {
+    width: 45%;
   }
 
   .title-hero-bg.banking-banner.new {
@@ -92,7 +134,7 @@
 
   .btn.btn-md {
     font-size: 13px;
-    box-shadow: 5px 5px 10px #1e1f20;
+
 
   }
 
@@ -108,10 +150,7 @@
     margin-bottom: 15px;
   }
 
-  /* .section-heading h2 {
-    text-align: left; 
-    line-height: 0.5em;
-  } */
+
 
   .text-left {
     text-align: left;
@@ -143,7 +182,7 @@
 
   .div-6-new .col-md-4.col-sm-6 div {
     min-height: 350px;
-    /* background: #ad2527; */
+
   }
 
   .btn.btn-lg {
@@ -225,13 +264,91 @@
 
   }
 
+  h4.roboto-font.font-300.changes {
+
+    margin-top: -15px;
+    font-size: 18px;
+  }
+
+  hr.center_line.default-bg.latest {
+    margin-top: -5px;
+  }
+
+  section.white-bg.high {
+    height: 835px;
+  }
+
+  button.btn.btn-outline-new.btn-md.btn-square.btn-animate.btn-new {
+    background-color: #ad2527;
+    color: white;
+    border-radius: 5px;
+  }
+
+  h2.mb-50.cast {
+    margin-left: 15px;
+    font-size: 35px;
+  }
+
+  .ch-fo {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+
+  .read-next-card-content.python-new.py {
+    list-style: none;
+    padding: 10px;
+    color: white !important;
+    padding-bottom: 25px;
+    margin-top: -25px;
+  }
+
+  .read-next-card-content ul li.ch-lis {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 18px;
+    color: white !important;
+  }
+
+  section.white-bg.ch-new {
+    background-color: #f1f1f1;
+  }
+
+  hr.ln-tp {
+    margin-top: -30px;
+  }
+
+  h2.font-size-45.tx-al {
+    text-align: center;
+  }
+
+  h2.dark-color.mt-1.font-35px.font-700.fl-le {
+    float: left;
+  }
+
+  h3.mt-50.ct {
+    text-align: center;
+  }
+
+  section.pt-0.pb-0.bk-co {
+    background-color: white;
+  }
+
+  h2.mt-s.font-700.font-40px.st-le {
+    margin-left: -15px;
+  }
 
 
-  @media (max-width:1100px) and (min-width:700px) {
+
+
+
+
+
+
+  @media (max-width:1100px) and (min-width:770px) {
     .title-hero-bg.banking-banner.new {
       background-position: center !important;
       background-size: cover;
-      /* background-position: center; */
+
 
 
     }
@@ -249,12 +366,41 @@
     h4.mt-0.font-600.dark-color.latest {
       margin-left: 78px;
     }
+
+    h2.mb-50.cast {
+      text-align: center;
+      font-size: 26px;
+    }
+
+    .col-md-6.pyhtohForm {
+      width: 50%;
+    }
+  }
+
+  @media (max-width:768px) and (min-width:700px) {
+    .col-md-6.pyhtohForm {
+      width: 100%;
+    }
+
+    h2.mb-50.cast {
+      font-size: 35px;
+      text-align: center;
+    }
+
+    .title-hero-bg.banking-banner.new {
+      position: relative;
+      min-height: 262px;
+      margin-top: 60px;
+    }
+
+    .banner-h2 {
+      padding-top: 160px;
+      font-size: 28px;
+    }
   }
 
   @media (max-width:699px) {
-    .md-input-new {
-      padding-right: 166px !important;
-    }
+
 
     button.btn.btn-outline-new.btn-md.btn-square.btn-animate.btn-new {
       margin-top: -78px;
@@ -326,26 +472,42 @@
       font-size: 11px;
     }
 
+    .col-md-6.pyhtohForm {
+      width: 100%;
+    }
+
+    button.btn.btn-md.btn-color.btn-animate {
+      margin-top: 20px;
+    }
+
+    input.form1request {
+      margin-top: 15px;
+    }
+
+    h2.mb-50.cast {
+      text-align: center;
+    }
+
   }
 
-  @media (max-width:380px) and (min-width:320px) {
+
+  @media (max-width:374px) and (min-width:320px) {
     .right-bottom .btn-orange {
-      width: 75% !important;
-      margin-left: 100px;
-      margin-top: -15px;
+      width: 60% !important;
+      margin-left: 160px !important;
+      margin-top: 16px;
     }
 
     .right-bottom h6 {
 
-      margin-top: -18 !important;
+
       width: 52%;
 
     }
 
     img.img-11 {
       width: 94px;
-      margin-left: 86px;
-      margin-top: -18px;
+      margin-top: -12px;
     }
 
     button.btn.btn-outline-new.btn-md.btn-square.btn-animate.btn-new {
@@ -386,6 +548,14 @@
       margin-top: -17px;
       margin-bottom: 10px;
       margin-left: 68px;
+    }
+
+    h3.default-color.mt-0.text-uppercase.add-cls {
+      font-size: 20px;
+    }
+
+    h3.font-600.fo-change {
+      font-size: 15px;
     }
   }
 
@@ -461,13 +631,38 @@
       width: 100%;
     }
 
+
+  }
+
+  @media only screen and (min-device-width: 375px) and (max-device-width: 400px) {
+    h6.fo-66 {
+      margin-left: 180px;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media only screen and (min-device-width: 425px) and (max-device-width: 401px) {
+    .mob {
+      font-size: 12px;
+    }
+
+    .hid {
+      display: none;
+      clear: both;
+    }
+
+
   }
 </style>
+<script src="https://www.google.com/recaptcha/api.js"></script>
+
 <?php
 
 $title = 'Python Development Company|Python Software Developers USA';
 $description = 'DigiPrima python Development Company in USA. We offer software, mobile, & web application services. Hire top python developers, programmers, engineers.';
-$keyword = 'python development, python development company, hire python developer, python developer, hire dedicated python developer, python programmer, python development, freelance python developer, python development team, hire python development team';
+$keyword = 'Python Software Development Company | Application Developers 
+DigiPrima is a top Python development company in the USA. Hire python developers for cutting-edge custom software, websites, mobile, web application services using advanced Python frameworks.';
+$meta_tag = '<meta name="robots" content="index,follow" />';
 
 ?>
 @include('head')
@@ -482,7 +677,7 @@ $keyword = 'python development, python development company, hire python develope
 
     <div class="container">
       <div class="page-title text-center white-color">
-        <h2 class="banner-h2">Most-Trusted Python Development Company in USA</h2>
+        <h1 class="banner-h2">Most-Trusted Python Development Company</h1>
       </div>
     </div>
   </section>
@@ -497,12 +692,12 @@ contact form start
       <div class="col-md-3"> -->
 
 
-<section class="grey-bg" style="padding-top:35px; padding-bottom:18PX; background: whitesmoke;">
+<section class="grey-bg" style="padding-top:60px; padding-bottom:18PX; background: whitesmoke;">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
         <h2 class="mt-10 font-700 roboto-font abouth2">Hire Highly Qualified Python Developers</h2>
-        <p>Are you looking to hire python developers? Great choice! Hire top developers from DigiPrima Technologies, as we are globally renowned as a prominent python development company.
+        <p style="color:#060606;">Are you looking to hire python developers? Great choice! Hire top developers from DigiPrima Technologies, as we are globally renowned as a prominent python development company.
           We are helping all the shapes and sizes of businesses to build Python-driven custom web applications, desktop apps,
           and dynamic websites in advanced Python frameworks such as Flask, Web2py, and Django implementing the latest Python tools.</p>
         <h4 style="margin-bottom: -16px;">
@@ -512,7 +707,7 @@ contact form start
 
         <!-- <h3 class="default-color font-600">Big Data and advanced analytics, robotics and automation, artificial intelligence and virtual reality.</h3> -->
         <p class="mt-20">
-        <ul class="ulist2">
+        <ul class="ulist2" style="color: #060606;">
 
 
           <li>Affordable pricing.</li>
@@ -536,18 +731,20 @@ contact form start
         <div class="row">
           <div class="col-sm-8 section-heading">
             <h3 class="roboto-font font-700">Free Consultation</h3>
-            <hr class="center_line default-bg">
-            <h4 class="roboto-font font-300" style="margin-left: -8px;">Technology-driven Transformation With Real Business Growth.</h4>
+            <hr class="center_line default-bg latest">
+            <h4 class="roboto-font font-300 changes" style="margin-left: -8px;">Technology-driven Transformation With Real Business Growth.</h4>
           </div>
         </div>
         <style>
           h4 {
-            margin-bottom: -30px;
+            margin-bottom: -50px;
           }
         </style>
         <div class="row mt-50">
           <div class="col-md-12">
-            <form name="contact-form" id="contactform" action="{{url('/feedback')}}" method="POST" class="contact-form-style-01">
+
+
+            <form name="contact-form" id="contactform" action="{{url('/contact')}}" method="POST" class="contact-form-style-01">
               {{ csrf_field() }}
               <div class="row">
                 @if(Session::has('message'))
@@ -561,7 +758,7 @@ contact form start
                 <div class="col-md-6 col-sm-6">
                   <div class="form-group">
                     <label class="sr-only" for="name">Name</label>
-                    <input type="text" name="name" class="md-input-new" placeholder="Name *" required data-error="Your Name is Required">
+                    <input type="text" name="name" class="md-input-new latest" placeholder="Name *" required data-error="Your Name is Required">
                     <div class="help-block with-errors"></div>
                   </div>
                 </div>
@@ -587,30 +784,7 @@ contact form start
                     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
                     <script src="{{asset('/build/js/intlTelInput.js')}}"></script>
 
-                    <script>
-                      // Vanilla Javascript
 
-                      var input = document.querySelector("#number");
-                      window.intlTelInput(input, ({
-
-                      }));
-
-                      // const numberInput = window.intlTelInput("#number", {
-                      //   preferredCountries: ["in", "co", "us", "de"],
-                      //   utilsScript:
-                      //     "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.8/js/utils.js",
-                      // });
-
-                      $(document).ready(function() {
-                        $('.iti__flag-container').click(function() {
-                          var countryCode = $('.iti__selected-flag').attr('title');
-                          var countryCode = countryCode.replace(/[^0-15]/g, '')
-                          $('#number').val("");
-                          $('#number').val("+" + countryCode + " " + $('#number').val());
-                          console.log($("#number").val());
-                        });
-                      });
-                    </script>
 
 
                   </div>
@@ -637,39 +811,22 @@ contact form start
               </div>
               <!-- <button type="Submit" id="send-message" style="clear: both;">Send
                       Message</button> -->
-              <div id="loader-icon" style="display:none;"><img src="{{asset('captcha/img/loader.gif')}}"></div>
+              <!-- <div id="loader-icon" style="display:none;"><img src="{{asset('captcha/img/loader.gif')}}"></div> -->
 
-              <div class="g-recaptcha" data-sitekey="6LcEdBQeAAAAAMOIebvuIxYGGzeDoaWlZUsNPcMe">
+              <div class="g-recaptcha" data-sitekey="{{ env('RECAPTCHA_SITE_KEY') }}">
+
                 <!-- <div style="width: 304px; height: 78px;"><div> -->
-                <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcEdBQeAAAAAMOIebvuIxYGGzeDoaWlZUsNPcMe&amp;co=aHR0cDovL2xvY2FsaG9zdDo4MDAw&amp;hl=en&amp;v=TDBxTlSsKAUm3tSIa0fwIqNu&amp;size=normal&amp;cb=6j718avu6mm2" width="304" height="78" role="presentation" name="a-e0nv35jqjamp" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                <!-- <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcEdBQeAAAAAMOIebvuIxYGGzeDoaWlZUsNPcMe&amp;co=aHR0cDovL2xvY2FsaG9zdDo4MDAw&amp;hl=en&amp;v=TDBxTlSsKAUm3tSIa0fwIqNu&amp;size=normal&amp;cb=6j718avu6mm2" width="304" height="78" role="presentation" name="a-e0nv35jqjamp" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe> -->
               </div>
               <!-- <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"></textarea> -->
           </div>
-          <iframe style="display: none;"></iframe>
         </div>
+
         <!-- Recaptcha CSS -->
 
 
         <!-- recptcha -->
-        <?php
-        if ($_POST) {
-          require('constant.php');
-          if (isset($_POST['g-recaptcha-response'])) {
 
-            require('captcha/component/recaptcha/src/autoload.php');
-
-            $recaptcha = new \ReCaptcha\ReCaptcha(SECRET_KEY);
-
-            $resp = $recaptcha->verify($_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);
-
-            if (!$resp->isSuccess()) {
-              $output = json_encode(array('type' => 'error', 'text' => '<b>Captcha</b> Validation Required!'));
-              die($output);
-            }
-          }
-        }
-
-        ?>
 
         <div class="col-md-12 col-sm-12">
           <div class="text-left">
@@ -678,6 +835,11 @@ contact form start
         </div>
       </div>
       </form>
+      @if ($errors->has('g-recaptcha-response'))
+      <span class="help-block">
+        <h4>Please verify that you are not a robot.</h4>
+      </span>
+      @endif
     </div>
   </div>
 
@@ -717,35 +879,35 @@ contact form start
     <div class="row">
       <div class="col-sm-12 section-heading">
 
-        <h2 class="dark-color mt-1  font-35px font-700 ">Why Python</h2>
+        <h3 class="dark-color mt-1  font-35px font-700 fl-le">Why Python</h3>
 
 
         <div class="col-md-12  text-left mb-20 col-sm-12 col-lg-12 wow fadeInRight python-h3" data-wow-delay="0.1s">
           <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Multiple tools, libraries and Plugins available for development.</h3>
+            <h3 class="font-600 fo-change"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Multiple tools, libraries and Plugins available for development.</h3>
           </div>
 
 
 
           <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Used for a variety of application programming and hot technology services.</h3>
+            <h3 class="font-600 fo-change"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Used for a variety of application programming and hot technology services.</h3>
           </div>
 
 
           <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Complex mathematical and statistical as well as analytical calculations done with ease.</h3>
-          </div>
-
-
-
-          <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Analytics is designed easy to understand and flexible because of Python.</h3>
+            <h3 class="font-600 fo-change"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Complex mathematical and statistical as well as analytical calculations done with ease.</h3>
           </div>
 
 
 
           <div class="col-xs-12">
-            <h3 class="font-600"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> All-in-one tools are available for easier development and testing.</h3>
+            <h3 class="font-600 fo-change"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> Analytics is designed easy to understand and flexible because of Python.</h3>
+          </div>
+
+
+
+          <div class="col-xs-12">
+            <h3 class="font-600 fo-change"> <i class="ion-ios-checkmark default-color font-30px mt-20"></i> All-in-one tools are available for easier development and testing.</h3>
           </div>
 
         </div>
@@ -801,8 +963,8 @@ contact form start
   <div class="container-fluid">
     <div class="col-md-6 col-sm-7">
       <div class="pl-120 pl-1201">
-        <h2 class="mt-s font-700 font-40px ">Solution</h2>
-        <p>DigiPrima provides secure, scalable and performance based Python development solutions that enable us to achieve our client's end goals and deliver timely output with qualified deployment.</p>
+        <h2 class="mt-s font-700 font-40px st-le">Solution</h2>
+        <p style="margin-left: -15px;">DigiPrima provides secure, scalable and performance based Python development solutions that enable us to achieve our client's end goals and deliver timely output with qualified deployment.</p>
         <div class="row mt-70">
           <div class="row">
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
@@ -813,7 +975,7 @@ contact form start
             </div>
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
               <i class="icon-layers font-40px default-color"></i>
-              <h5 class="mt-0 font-600">Python CMS development & Unit Testing</h5>
+              <h5 class="mt-0 font-600">Custom Python CMS Development & Unit Testing</h5>
               <!-- <p class="">Have the bifurcated data which will as such lead to advanced customer behavior analysis</p> -->
             </div>
           </div>
@@ -825,7 +987,7 @@ contact form start
             </div>
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
               <i class="icon-gears font-40px default-color"></i>
-              <h5 class="mt-0 font-600">Custom Python GUI Development</h5>
+              <h5 class="mt-0 font-600">Python GUI Development and GUI Programming</h5>
               <!-- <p class="">The various software will be working in close tandem with each other and deliberating efficient results.</p> -->
 
             </div>
@@ -833,7 +995,7 @@ contact form start
           <div class="row">
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
               <i class="icon-gears font-40px default-color"></i>
-              <h5 class="mt-0 font-600">Python Consulting Services</h5>
+              <h5 class="mt-0 font-600">Python Consulting Services and Dedicated Developers </h5>
 
               <!-- <p class="">Let the tools interact and learn to draw behavioral analytics that will help in drawing better results.</p> -->
 
@@ -842,7 +1004,7 @@ contact form start
 
             <div class="col-md-12 feature-box mb-10 col-sm-6 col-lg-6">
               <i class="icon-genius font-40px default-color"></i>
-              <h5 class="mt-0 font-600">Python Migrations</h5>
+              <h5 class="mt-0 font-600">Python Migrations and Data Extraction with RPA</h5>
               <!-- <p class=" ">Let the chatbots do human interaction and lead them to the most suitable option.</p> -->
 
 
@@ -1036,7 +1198,7 @@ contact form start
   <div class="container">
     <div class="row">
       <div class="col-sm-12 section-heading">
-        <h2 class="default-color mt-0 text-uppercase">Get the Dedicated Python Developers</h2>
+        <h3 class="default-color mt-0 text-uppercase add-cls">Get the Dedicated Python Developers</h3>
         <p>Hire top-notch Python developers who have in-depth knowledge of developing custom product development for start-ups large and small businesses. DigiPrima provides expertise in working with the modern development frameworks and technologies, including Django.</p>
 
         <div class="col-md-12 col-sm-12 col-sm-12 text-left">
@@ -1127,7 +1289,7 @@ contact form start
   <div class="container">
     <div class="row">
       <div class="col-sm-12 section-heading">
-        <h3 class="mt-10  default-color font-35px font-700  dark-color"> Python development Framework</h3>
+        <h3 class="mt-10  default-color font-35px font-700  dark-color"> Python Development Framework</h3>
         <!-- <p class=" font-300 font-16px">Business Intelligence (BI) consulting services help companies retrieve actionable insights out of their data to accelerate decision-making and improve business performance. Digiprima BI consultants are assisting clients with implementing or revamping their BI solution. Our business intelligence consulting services provide companies and enterprises a wealth of business intelligence solutions, leveraging open technology-based Business Intelligence (BI) platforms.</p> -->
 
       </div>
@@ -1187,9 +1349,9 @@ contact form start
     </div>
 </section>
 
-<section class="pt-0 pb-0">
+<section class="pt-0 pb-0 bk-co">
   <div class="col-md-6 col-sm-6 bg-flex bg-flex-right">
-    <div class="bg-flex-holder bg-flex-cover" style="background-image: url(assets/images/bg-right-img-11.jpg);" alt="Automating Web Testing with Selenium and Python"></div>
+    <div class="bg-flex-holder bg-flex-cover" style="background-image: url(../assets/images/bg-right-new1.png);" alt="Automating Web Testing with Selenium and Python"></div>
   </div>
   <div class="container-fluid">
     <div class="col-md-6 col-sm-6">
@@ -1200,14 +1362,14 @@ contact form start
               <a data-toggle="collapse" data-parent="#accordion-style" href="#question1" aria-expanded="false" class="collapsed">
                 <div class="panel-title">
                   <h3 class="mt-10  default-color font-35px font-700  dark-color">Automating Web Testing with Selenium and Python</h3>
-                  <span class="pull-right"><i class="ion-android-remove"></i></span>
+
                 </div>
               </a>
 
             </div>
             <div id="question1" class="panel-collapse collapse in" aria-expanded="false" role="tablist">
               <div class="panel-body mt-0 font-600 dark-color">
-                <h4 class="font-600 dark-color">Build credible and perfect web testing automation with Selenium WebDriver and Python!</h4><br><br>
+                <h4 class="font-600 dark-color ch-fo">Build credible and perfect web testing automation with Selenium WebDriver and Python!</h4><br><br>
                 <p>Test automation with Selenium and Python, or developing scripts for running automated test commands against a range of browsers, will be more cost-effective, accurate, and faster than manual testing. Selenium supports Python, and therefore can be used with Python as Selenium Webdriver for testing. The Python APIs strong you to connect with the web browser by Selenium. Selenium is a powerful testing tool that can send standard Python commands to different browsers, despite variations in browsers. Digiprima gives you precise automated web testing solutions with Selenium and Python.</p>
 
               </div>
@@ -1226,30 +1388,30 @@ contact form start
     </div>
   </div>
 </section>
-<section class="white-bg">
+<section class="white-bg high">
   <div class="container">
     <div class="row">
       <div class="col-sm-8 section-heading">
-        <h5 class="text-uppercase default-color mt-0">So what's new</h5>
-        <h3 class="roboto-font font-400">Brands are built around stories. <br>Here are a few of our own</h3>
+        <h5 class="text-uppercase default-color mt-0">Recent Project</h5>
+        <h3 class="roboto-font font-400">Brands are built around stories Here are a few of our own</h3>
       </div>
     </div>
     <div class="row mt-50">
-      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp bet" data-wow-delay="0.1s">
         <div class="post">
 
           <div class="post-info pt-20 pb-20 digi-blog height-500px">
             <!-- <h3>— The Official SpyFu Blog —</h3> -->
-            <h2 class="mb-50">Case Study</h2>
+            <h2 class="mb-50 cast">Case Study</h2>
             <!--  <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"></path></svg>
 </div> -->
-            <hr>
+            <hr class="ln-tp">
 
-            <div class="read-next-card-content">
+            <div class="read-next-card-content python-new py">
               <ul>
-                <li><a href="Telaqua-case-study">TELAQUA - SMART AGRICULTURE & IRRIGATION (IOT)</a></li>
-                <li><a href="owl-case-study"> Remote Monitoring Solution For Propane Dealers</a></li>
-                <li><a href="neuralmarker-case-study">Annotation And Training Data Platform For Computer Vision</a></li>
+                <li class="ch-lis"><a href="Telaqua-case-study">Telaqua - Smart Agriculture & Irrigation (IOT)</a></li>
+                <li class="ch-lis"><a href="owl-case-study">OWL SITE - Remote Monitoring Solution For Propane Dealers</a></li>
+                <li class="ch-lis"><a href="neuralmarker-case-study">Neural Marker - Annotation And Training Data Platform For Computer Vision</a></li>
               </ul>
             </div>
             <!-- <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a> -->
@@ -1264,7 +1426,7 @@ contact form start
       <section class="pt-0 pb-0 dark-block">
         <div class="service-slider-2">
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/study13.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/tel4.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
@@ -1280,7 +1442,7 @@ contact form start
             </div>
           </div>
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/owl6.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/OWL.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
@@ -1297,7 +1459,7 @@ contact form start
           </div>
 
           <div class="slide">
-            <div class="slide-img height-500px" style="background-image: url({{asset('images/NeuralMarker4.png')}})" center center / cover scroll no-repeat;"></div>
+            <div class="slide-img height-500px" style="background-image: url({{asset('images/ai2.png')}})" center center / cover scroll no-repeat;"></div>
             <div class="hero-text-wrap height-650px">
               <div class="hero-text">
                 <div class="container">
@@ -1420,14 +1582,14 @@ contact form start
   <div class="container">
 
     <div class="row">
-      <h3 class="mt-50">Awarded By</h3>
+      <h3 class="mt-50 ct">Awarded By</h3>
 
       <div class="text-center mt-20 col-md-12 col-sm-12 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
         <div class="client-slider slick">
 
-          <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/Top-Mobile-App-Developers-GoodFirms.png')}}" alt="Top Mobile App Developers GoodFirms" title="Top Mobile App Developers GoodFirms" />
+          <div class="client-logo1"><a href="https://www.goodfirms.co/company/digiprima-technologies-pvt-ltd"><img class="img-responsive " src="{{asset ('images/homelogo/Top-Mobile-App-Developers-GoodFirms.png')}}" alt="Top Mobile App Developers GoodFirms" title="Top Mobile App Developers GoodFirms" /></a>
           </div>
-          <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/Clutch_Mobile_App_Developers_2021.png')}}" alt="Clutch_Mobile_App_Developers_2021" title="Clutch_Mobile_App_Developers_2021" />
+          <div class="client-logo1"><a href="https://clutch.co/profile/digiprima-technologies#summary"><img class="img-responsive " src="{{asset ('images/homelogo/Clutch_Mobile_App_Developers_2021.png')}}" alt="Clutch_Mobile_App_Developers_2021" title="Clutch_Mobile_App_Developers_2021" /></a>
           </div>
           <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/Mobile-App-Circular.png')}}" alt="Mobile-App-Circular" title="Mobile-App-Circular" />
           </div>
@@ -1435,9 +1597,9 @@ contact form start
           </div>
           <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/TAC-iphone-logo-1.png')}}" alt="homelogo/TAC-iphone-logo-1" title="homelogo/TAC-iphone-logo-1s" />
           </div>
-          <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/Clutch_Mobile_App_Developers_2021.png')}}" alt="homelogo/Clutch_Mobile_App_Developers_2020" title="homelogo/Clutch_Mobile_App_Developers_2020" />
+          <div class="client-logo1"><a href="https://clutch.co/profile/digiprima-technologies#summary"><img class="img-responsive " src="{{asset ('images/homelogo/Clutch_Mobile_App_Developers_2021.png')}}" alt="homelogo/Clutch_Mobile_App_Developers_2020" title="homelogo/Clutch_Mobile_App_Developers_2020" /></a>
           </div>
-          <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/extract_top_application _developer.png')}}" alt="homelogo/extract_top_application _developer" title="homelogo/extract_top_application _developer" />
+          <div class="client-logo1"><a href="https://extract.co/digiprimatechnologies"><img class="img-responsive " src="{{asset ('images/homelogo/extract_top_application _developer.png')}}" alt="homelogo/extract_top_application _developer" title="homelogo/extract_top_application _developer" /></a>
           </div>
           <div class="client-logo1"> <img class="img-responsive " src="{{asset ('images/homelogo/appfutura-badge.png')}}" alt="homelogo/appfutura-badge" title="homelogo/appfutura-badge" />
           </div>

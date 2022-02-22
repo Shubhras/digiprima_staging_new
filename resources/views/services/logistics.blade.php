@@ -1,3 +1,17 @@
+<style>
+  @media (max-width:1100px) {
+    .mobile-hide.bg-flex-holder.bg-flex-cover.add-cl {
+      height: 75%;
+    }
+  }
+  @media (max-width:320px){
+    .col-md-12.col-sm-12.centerize-col.add.btn-mobilize.text-center.mt-80 {
+      margin-left: -28px;
+    }
+  }
+
+</style>
+
 <script type="application/ld+json">
   {
     "@context": "http://schema.org",
@@ -74,11 +88,17 @@
     "@id": "https://www.digiprima.com/logistics-software-development-services"
   }
 </script>
+<style>
+  span.default-color.font-700.text-uppercase.add-new {
+    position: relative;
+    top: 8px;
+  }
+</style>
 
 <?php
 
-$title = 'Transport & Logistics Software Development | outsource software developer ';
-$description = 'Digiprima is among the top website and Mobile Application Development company provides end to end solution for Education, Manufacturing & fintech industry.';
+$title = 'Transport & Logistics Software Development | Services | Company ';
+$description = 'With our Transport & Logistics Software Development services you can optimize your transportation management. Transport & Logistics Software Development overcomes operational challenges and reduces delivery costs.';
 $keyword = 'logistics app development company, automotive software companies in india, logistics management system, software outsourcing companies, outsource software development, software development case study, outsourcing software development projects, outsourcing software development to india ';
 
 ?>
@@ -102,7 +122,7 @@ $keyword = 'logistics app development company, automotive software companies in 
       <div class="col-sm-12 section-heading">
 
         <h3 class="default-color mt-0 text-uppercase font-35px ">About Our Agency</h3>
-        <p class="sectionp">Specialized technology consulting and development solutions for the Logistics Industry and <span class="default-color font-700 text-uppercase" style="margin: 0px; position: relative; top: 8px;">Transportation </span></p>
+        <p class="sectionp">Specialized technology consulting and development solutions for the Logistics Industry and <span class="default-color font-700 text-uppercase add-new">Transportation </span></p>
 
 
         <p class="sectionp4">The industry is perennially advancing with the constant changes in the logistics and transportation industry. The race to provide cheaper services however still remains the same. To have increased output value it is necessary to have technologies that come economical and are easily manageable through the minimum training. The industry is continuously in pressure of improving its delivery efficiency. Our services are well-versed to power the industry neophytes and giants equally to cope up with various problems faced as the bottleneck in the business growth.</p>
@@ -171,9 +191,33 @@ $keyword = 'logistics app development company, automotive software companies in 
   </div>
 </section>
 
-<section class="white-bg" style="padding-top:90px;">
+
+<section class="white-bg" style="padding-top:35px; padding-bottom:70PX;">
+  <div class="container">
+
+
+    <div class="row mt-0">
+      <div class="col-md-12">
+        <div class="about-description">
+          <h4 class="mt-10 font-700 roboto-font abouth2">Logistics and Transportation Software Development</h4>
+
+          <p>Logistics is a rapidly growing industry in the global economy that is vital to the business sector and has immense potential. One of the main software technology trends nowadays is the development and integration of custom-built systems for the automation of transportation, logistics, and shipping processes. </p>
+          <br>
+          <p>Our software solutions can significantly reduce your administration expenses as our experienced development team specializes in custom management solutions that assist our clients to streamline their freight operations, saving time, reducing costs, and improving customer services. We build customized initiative logistics software applications that allow our customers to handle all types of logistics procedures.</p>
+          <h4 class="mt-10 font-700 roboto-font abouth2 abouth3">Join Leading Logistics Software Development Company </h4>
+
+          <p> Take benefit of our wide logistics software development expertise to find a business solution. Simplify complex transportation systems with trusted software solutions.</p>
+          
+        </div>
+      </div>
+</section>
+
+
+
+
+<section class="grey-bg" style="padding-top:75px;">
   <div class="mobile-hide col-md-6  col-sm-12 bg-flex bg-flex-right bagrd">
-    <div class=" mobile-hide bg-flex-holder bg-flex-cover" style="background-image: url({{ asset('/images/centers.png') }});margin-top:45px;" title="logistics software solutions development" alt="logistics software solutions development">
+    <div class=" mobile-hide bg-flex-holder bg-flex-cover add-cl" style="background-image: url({{ asset('/images/centers.png') }});margin-top:45px;" title="logistics software solutions development" alt="logistics software solutions development">
 
     </div>
   </div>
@@ -291,12 +335,12 @@ $keyword = 'logistics app development company, automotive software companies in 
 
 
     </div>
-    <div class="col-md-12 col-sm-12 centerize-col btn-mobilize text-center  mt-80">
+    <div class="col-md-12 col-sm-12 centerize-col add btn-mobilize text-center  mt-80">
       <a class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm" href="portfolio" target="blank"><span>View Portfolio <i class="tr-icon icofont icofont-ui-theme"></i></span></a>
 
     </div>
 
-
+ 
 
   </div>
   </div>

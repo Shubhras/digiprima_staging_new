@@ -13,10 +13,10 @@
 
 
 <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url( {{ asset('images/pythonbanner-345.png')}})" alt="python development company" title="python development company">
+      <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/pythonbanner-345.png') }}" alt="python development company" title="python development company">
 
         <div class="container">
-            <div class="page-title text-center white-color" style="margin-top:90px;">
+            <div class="page-title text-center white-color">
                 <h1 style="padding-top:150px; ">PYTHON DEVELOPMENT</h1>
             </div>
         </div>

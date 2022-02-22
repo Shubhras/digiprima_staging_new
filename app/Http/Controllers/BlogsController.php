@@ -125,3 +125,4 @@ class BlogsController extends Controller
         	return redirect()->action('BlogsController@index');
     }
 }
+

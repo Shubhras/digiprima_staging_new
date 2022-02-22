@@ -22,11 +22,6 @@
                 <li><a href="{{asset('/blog-list') }}">Blog</a></li>
                 <li><a href="{{asset('/portfolio')}}">Portfolio</a></li>
                 <li><a href="{{asset('/case-study')}}">Case Study</a></li>
-
-                <!-- Demo test -->
-                <li><a href="{{asset('/it-technology')}}">Hire Developers</a></li>
-                <!-- end -->
-
               </ul>
             </div>
           </div>
@@ -38,8 +33,8 @@
                     <li>47 W 13th St,</li>
                     <li>NY 10011, New York, USA</li></br>
                     <!-- <li>110-Gurudev plaza, Indore, India</li> -->
-                    <li>info@digiprima.com</li>
-                    <li>+1 (347) 973 9732</li>
+                    <li><a href="mailto:info@digiprima.com">info@digiprima.com</a></li>
+                    <li> <a href="tel:+1 (347) 973 9732"><span> +1 (347) 973 9732</span></a></li>
                     <!-- <li>+91 97555 70042</li>
                     <li>+971 55 3570329</li> -->
                   </ul>
@@ -215,7 +210,7 @@
       </div>
 
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 (function(){
 var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
@@ -225,8 +220,8 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
-</script>
-<!--End of Tawk.to Script-->  
+</script> -->
+<!--End of Tawk.to Script-->
 
 <!--== Javascript Plugins ==-->
 <script src="{{asset ('/assets/js/jquery.min.js') }}"></script>

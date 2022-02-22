@@ -140,7 +140,7 @@ else { ?>
           <li class="dropdown megamenu-fw"> <a href="{{asset('/') }}"  >Home</a>     
           </li>         
 
-          <li class="dropdown megamenu-fw"> <a href="{{asset('/specialties') }}" >Industry</a>
+          <li class="dropdown megamenu-fw"> <a href="{{asset('/') }}" >Industry</a>
             <ul class="dropdown-menu megamenu-content hidden-xs sm-display-none" role="menu">
               <li>
                 <div class="row">
@@ -642,7 +642,7 @@ else { ?>
          
 
           <li class="dropdown"> <a href="https://sagartime.com" class="dropdown-toggle" data-toggle="dropdown">Blog</a></li>
-          Transportation
+
           <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact us</a></li>
 
 

@@ -70,19 +70,45 @@ else { ?>
 <meta name="google-site-verification" content="D4zO1nmRsJ025xgKsUNmdFQkNe3NNAEyi2x6fo6fZO8" />
 <meta property="og:url" content="https://digiprima.com/">
    <!-- page  meta tags open -->
+
+   <?php
+    // Program to display URL of current page.
+    if (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on')
+        $link = "https";
+    else $link = "http";
+      
+    // Here append the common URL characters.
+    $link .= "://";
+      
+    // Append the host(domain name, ip) to the URL.
+    $link .= $_SERVER['HTTP_HOST'];
+      
+    // Append the requested resource location to the URL
+    $link .= $_SERVER['REQUEST_URI'];
+      
+    // Print the link
+?>
+
      <?php echo $meta_tag;?>
     <!-- page meta tags close -->
+    
     <meta property="og:site_name" content="Digiprima Technologies" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@digiprimatech" />
     <meta name="twitter:creator" content="@digiprimatech" />
-    <link rel="canonical" href="{{asset ('/') }}" />
+    <link rel="canonical" href="<?php echo $link; ?>" />
 <link rel="stylesheet" href="{{asset ('/assets/css/master.css') }}">
 <link rel="stylesheet" href="{{asset ('/assets/css/responsive.css') }}">
 
 <link rel="stylesheet" type="text/css" href="{{asset ('/css/settings.css') }}">
 <link rel="stylesheet" type="text/css" href="{{asset ('/css/layers.css') }}">
 <link rel="stylesheet" type="text/css" href="{{asset ('/css/navigation.css') }}">
+<link rel="alternate" href="<?php echo $link; ?>" hreflang="en-us" />
+<link rel="alternate" href="<?php echo $link; ?>" hreflang="en" />
+<link rel="alternate" href="<?php echo $link; ?>" hreflang="en-gb" />
+<link rel="alternate" href="<?php echo $link; ?>" hreflang="en-ca" />
+<link rel="alternate" href="<?php echo $link; ?>" hreflang="en-au" />
+<link rel="alternate" href="<?php echo $link; ?>" hreflang="en-in" />
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SGPFJDNJ91"></script>
@@ -94,6 +120,10 @@ else { ?>
   gtag('config', 'G-SGPFJDNJ91');
 </script>
 <!-- Global site tag (gtag.js) - Google Analytics END -->
+<!-- Event snippet for Website lead conversion page -->
+<script>
+  gtag('event', 'conversion', {'send_to': 'AW-637193129/TpivCJjV7M8BEKmX668C'});
+</script>
 </head>
 <body>
 
@@ -140,7 +170,7 @@ else { ?>
           <li class="dropdown megamenu-fw"> <a href="{{asset('/') }}"  >Home</a>     
           </li>         
 
-          <li class="dropdown megamenu-fw"> <a href="
+          <li class="dropdown megamenu-fw"> <a href="{{asset('industry')}}
             " >Industry</a>
             <ul class="dropdown-menu megamenu-content hidden-xs sm-display-none" role="menu">
               <li>
@@ -326,7 +356,7 @@ else { ?>
                 <input type="text" name="message" placeholder="Message">
                 <label>Email</label>
                 <input type="email" name="email" required placeholder="Email">
-                <button type="submit" name="submit" class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm">request an meeting </button> 
+                <button type="submit" name="submit" class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm">request a meeting </button> 
                 <a class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm" href="tel:+1 (347) 973 9732"><span> +1 (347) 973 9732</span></a>
             </div>
             </form>

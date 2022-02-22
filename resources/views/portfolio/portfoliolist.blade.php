@@ -1,6 +1,6 @@
 
   <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url({{asset('images/bg-right-img-2.jpg')}}" alt="case study in development" title="case study in development">
+      <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/bg-right-img-2.jpg') }}" alt="case study in development" title="case study in development">
 
         <div class="layer container">
             <div class="page-title text-center white-color">
@@ -267,131 +267,9 @@
             </div>
           </figcaption>
         </figure>
- </div>   
- 
-
-
-
- <div class="row">
-       
-
-       <div class="row mt-70">
-
-       <div class="col-md-6">
-       <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/finaceexchange.png')}}" alt="Finexchange" title="Finexchange">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
-          </div>
-     
-
-      <div class="col-md-6 col-sm-12 col-xs-12">
-      <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">Carfoodie</h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">Online Ordering built for you restauran</h3>
-              <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="sa-portfolio-new" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-            </div>
-     
-      
-    </div>
-
-    <div class="col-sm-12 section-heading">
-</div>
- </div>
- <div class="row mt-100">
-  <div class="col-md-6">
-  <h2 class="mt-0 font-700" style="color: black;">Background </h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black;">Stock Quotes, Stock Tips & Investment Strategies
-
-</h3>
-              <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="sa-portfolio-background" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-      
-       </div>
-
- <div class="col-md-6">
-         
- <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/mob-apps.png')}}" alt="Street Authority " title="Street Authority ">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="assets/images/portfolio/grid/31.jpg">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
- </div>   
-
-<div class="col-sm-12 section-heading">
-</div>
- </div>
+ </div>    
  
  </div>
-
- <div class="row">
-       
-
-       <div class="row mt-70">
-
-       <div class="col-md-6">
-       <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/finaceexchange.png')}}" alt="Finexchange" title="Finexchange">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
-          </div>
-     
-
-      <div class="col-md-6 col-sm-12 col-xs-12">
-      <h2 class="mt-0 font-700" style="color: black; margin-left: 12%">White Paper</h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black; margin-left: 12%">CROSS-PLATFORM MOBILE APP – FLUTTER & REACT NATIVE</h3>
-              <hr class="dark-bg left-line" style="color: black; margin-left: 12%">
-              <p class="mt-30" style="color: black; margin-left: 12%"><a href="sa-portfolio-flutter-react-native" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-            </div>
-     
-            <div class="col-sm-12 section-heading">
-</div>
- </div>
- <div class="row mt-100">
-  <div class="col-md-6">
-  <h2 class="mt-0 font-700" style="color: black;">Carsbeat</h2>
-              <h3 class=" roboto-font mt-0 mb-0" style="color: black;">You can buy/sell cars/parts</h3>
-              <hr class="dark-bg left-line">
-              <p class="mt-30"><a href="sa-portfolio-carsbeat" target="blank" class="btn btn-dark btn-md radius-0">See this Project</a></p>
-      
-       </div>
-
- <div class="col-md-6">
-         
- <figure class=" text-center portfolio-type-2">
-              <img src="{{asset('images/mob-apps.png')}}" alt="Street Authority " title="Street Authority ">
-          <figcaption class="dark-bg">
-              <div class="center-layout">
-                <div class="v-align-middle">
-                  <a class="magnific-lightbox" href="assets/images/portfolio/grid/31.jpg">
-                  </a>
-                </div>
-            </div>
-          </figcaption>
-        </figure>
- </div>   
-      
-    </div>
 
     </div>
   </section>

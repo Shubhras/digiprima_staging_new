@@ -13,7 +13,7 @@
 
         <div class="container">
             <div class="page-title text-center white-color">
-              <h1 style="padding-top: 160px;">MAGENTO DEVELOPMENT</h1>
+              <h1 style="padding-top: 300px;">MAGENTO DEVELOPMENT</h1>
             </div>
         </div>
       </section>

@@ -296,7 +296,7 @@ To accomplish this, Warby Parker doubled down on a targeted keyword strategy tha
 <p>
 
 
-  <p>
+  <!-- <p>
 <div class="container">
 <div class="row">
 
@@ -318,7 +318,7 @@ To accomplish this, Warby Parker doubled down on a targeted keyword strategy tha
 </div>
 </div>
 
-</p>
+</p> -->
 
   <p>
 
@@ -389,7 +389,7 @@ To accomplish this, Warby Parker doubled down on a targeted keyword strategy tha
                             <li><a href="/blog/mailchimps-conversion-content-strategy/">Mailchimp's Secret Content Strategy Convinces Freemium Users to Upgrade to Paid</a></li>
                         </ul>
                     </div>
-             <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a>  </div>
+             <a class="mi-col" href="/blog/tag/case-study/"></a>  </div>
           </div>
         </div>
         <!--== Post End ==-->

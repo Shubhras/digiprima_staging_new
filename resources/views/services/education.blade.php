@@ -80,8 +80,8 @@
 
 <?php 
 
- $title ='Education Software Development Company | E-learning Software Solutions';
- $description= 'Education Industry is one of those industries which adapted to the perennially transforming technical advancements and exploits it to the optimum level';
+ $title ='Education Software Development Company | Services | E-learning Software';
+ $description= 'Education Software Development Industry is one of those industries which adapted to the perennially transforming technical advancements and exploits it to the optimum level. We provide all types of education software development services';
  $keyword = 'education software development companies, education software companies, best e learning companies, education mobile app design,  e learning app development, elearning software solutions , learning management system software , learning management system, software application development services, customized software development services, education software services, educational software development, education software solutions development';
  $imagetag_url= 'images/page/hire-mobile-app-developer-2020.png';
 
@@ -101,11 +101,11 @@ background: linear-gradient(90deg, #b75292 0%, #212121 100%);
 
 }
 
-./* single_department1:hover{
+.single_department1:hover{
   background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
 box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
 
-} */
+}
 .dpmt_right{
     padding-top: 17rem;
 }
@@ -120,7 +120,7 @@ box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
 
 
 <div class="transition-none">
-      <section class="title-hero-bg parallax-effect" style="background:url(images/education12.png) center center / cover scroll no-repeat;" alt="educational software development services" title="educational software development services">
+      <section class="title-hero-bg " style="background:url(images/education12.png) center center / cover scroll no-repeat;" alt="educational software development services" title="educational software development services">
 
         <div class="container">
             <div class="page-title text-center white-color">
@@ -168,6 +168,56 @@ box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
         </div>
       </section>
   </div> -->
+  <section class="grey-bg" style="padding-top: 75px;padding-bottom: 20px;">
+  <div class=" container">
+    <div class="row">
+      <div class="col-sm-12 section-heading">
+
+        <h3 class="default-color mt-0 text-uppercase font-35px ">About Our Agency</h3>
+        <p class="sectionp">Specialized technology consulting and development solutions for the Banking and <span class="default-color font-700 text-uppercase">Finance Industry </span></p>
+
+
+        <p class="sectionp2">The swift technological improvements have changed the global banking and finance industry entirely over the past decade.<br> The customer demands in this sector are raising, newer competitors are coming in the market and the regulatory authorities are making the rules difficult to follow. Battling all this and still keeping the growth pace high is dependent largely upon the technical handshaking with the process and operations.</p>
+
+
+      </div>
+      <br />
+
+
+    </div>
+  </div>
+</section>
+
+
+<section class="pt-0 pb-0 bordered-bg">
+  <div class="container-fluid">
+    <div class="row row-flex flex-center">
+      <div class="col-md-6 col-sm-12 bg-flex-cover" style="background-image: url({{asset('images/page/Business-One-for-manufacturing-business-a-complete.png')}});" alt="manufacturing software developer" title="manufacturing software developer"></div>
+      <div class="col-md-5 col-sm-12">
+        <div class="col-inner spacer">
+
+
+          <h2 class="mt-10 font-700 roboto-font">Education Software Development Company.</h2>
+
+
+          
+          <hr class="left-line dark-bg bold-line">
+          <div class="row mt-8">
+            <div class="col-md-12">
+              <p>DigiPrima is an e-learning software and mobile app development company that drives innovation in the educational process and we help startups, educational organizations and enterprises use next-generation software leveraging technologies across web, mobile, cloud, IoT, product design, and analytics. Help build to make the learning process accessible, interactive and affordable around the world.
+
+              With the emergence of e-learning technologies, there has been an enormous change in the education industry globally. Our team of educational software development builds e-learning solutions that transform the curriculum of e-learning educational organization content inventors and students. School can be managed additional professionally and education can be improved with steady contribution and awareness of parents. Our e-learning solution allows higher education institutions to deliver offline learning to a geographically distributed student base using web applications as well as mobile apps.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
 <section style="padding-top: 80px; padding-bottom: 50px;">
   <div class="container">
 
@@ -653,12 +703,87 @@ box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
   </section>
   
   <!--== Call to Actions Start ==-->
+
+  <section class="grey-bg" style="padding-top:35px; padding-bottom:70PX;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="mt-10 font-700 roboto-font abouth2" style="text-align: center;">E-learning Software & Application Services</h2>
+
+
+        <!-- <h3 class="default-color font-600">Big Data and advanced analytics, robotics and automation, artificial intelligence and virtual reality.</h3> -->
+        <!-- <p class="mt-20">
+        <ul class="ulist2">
+
+          <li>Online Banking Predictive Analysis</li>
+          <li>Financial Document Optimization</li>
+          <li>Trading Text-analytics</li>
+          <li>Crowdfunding Portals</li>
+          <li>Lender, Vendor & Borrower Platform</li>
+
+        </ul>
+        </p> -->
+      </div>
+
+
+
+
+
+    </div>
+
+
+    <div class="row mt-0">
+      <div class="col-md-12">
+        <div class="about-description">
+          <h2 class="mt-10 font-700 roboto-font abouth2">E-learning Application Development</h2>
+
+          <p>Our experts build high-end applications with a multi-device solution to give you an interactive learning experience. Whether your users select a phone, a tablet or a desktop - our developers can build a solution for easy access to all devices. The expertise in an educational application development assents us to blend leading technologies and a fabulous design to produce applications of any difficulty and a purpose. </p>
+          <br>
+
+          <h2 class="mt-10 font-700 roboto-font abouth2 abouth3"> Learning Management System</h2>
+
+
+          <p> Not only educational institutions benefit from e-learning solutions. Most organizations actively use education software development. Enterprise LMS solution enables your education business to keep an employee onboarding, manage records, and also track their retention and development. Keep your employees up to date with the latest trends in your business area using personal information and evaluate their progress.</p>
+
+          <br>
+          <h2 class="mt-10 font-700 roboto-font abouth2 abouth3">e-learning education platforms </h2>
+
+          <p> Achieve more with web-based scalable learning and training systems that enable all learning materials to be stored in one place, control and facilitate the learning process, and also assess student or staff progress. DigiPrima experts provide fully automated, tailor-made on-premises e-learning development services that streamline learning and training processes.</p>
+          <br>
+          <h2 class="mt-10 font-700 roboto-font abouth2 abouth3">School Management Software </h2>
+
+          <p>Our highly dedicated development team builds custom school management software with an individualized student information system that includes built-in functions for full visibility and control over scheduling, attendance and academic results. The solution permits users to manage full records without filling out paperwork, and incorporate mobile alert system integration.</p>
+        </div>
+      </div>
+</section>
+
+
  
   <?php
    $tech='Software';
    ?>
    @include('tech/hire_developer_image')
   <!--== Call to Actions  End ==-->
+
+  <!-- <section class="white-bg">
+    <div class="container">
+      <div class="row">
+         <div class="col-sm-8 section-heading">
+          <h5 class="text-uppercase mt-0">Education Software Development Company</h5>
+      
+
+      <p style="text-align: justify;">DigiPrima is an e-learning software and mobile app development company that drives innovation in the educational process and we help startups, educational organizations and enterprises use next-generation software leveraging technologies across web, mobile, cloud, IoT, product design, and analytics. Help build to make the learning process accessible, interactive and affordable around the world.
+
+With the emergence of e-learning technologies, there has been an enormous change in the education industry globally. Our team of educational software development builds e-learning solutions that transform the curriculum of e-learning educational organization content inventors and students. School can be managed additional professionally and education can be improved with steady contribution and awareness of parents. Our e-learning solution allows higher education institutions to deliver offline learning to a geographically distributed student base using web applications as well as mobile apps.</p>
+        </div>
+        <br/>
+          
+            
+        </div>
+    </div>
+  </section> -->
+
+
   
   <section class="pt-0 pb-0 " style="background-color: #623553;">
     <div class="container-fluid">

@@ -14,7 +14,7 @@
 
         <div class="container">
             <div class="page-title text-center white-color">
-              <h1 style="padding-top: 230px;">WORDPRESS DEVELOPMENT</h1>
+              <h1 style="padding-top: 380px;">WORDPRESS DEVELOPMENT</h1>
             </div>
         </div>
       </section>

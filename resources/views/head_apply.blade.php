@@ -146,8 +146,7 @@ else { ?>
           <li class="dropdown megamenu-fw"> <a href="{{asset('/') }}"  style="color: black;">Home</a>     
           </li>         
 
-          <li class="dropdown megamenu-fw"> <a href="
-            " style="color: black;">Industry</a>
+          <li class="dropdown megamenu-fw"> <a href="{{asset('industry')}}" style="color: black;">Industry</a>
             <ul class="dropdown-menu megamenu-content hidden-xs sm-display-none" role="menu">
               <li>
                 <div class="row">
@@ -332,7 +331,7 @@ else { ?>
                 <input type="text" name="message" placeholder="Message">
                 <label>Email</label>
                 <input type="email" name="email" required placeholder="Email">
-                <button type="submit" name="submit" class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm">request an meeting </button> 
+                <button type="submit" name="submit" class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm">request a meeting </button> 
                 <a class="btn btn-xl btn-dark btn-animate margin-left-auto margin-right-auto display-table-sm" href="tel:+1 (347) 973 9732"><span> +1 (347) 973 9732</span></a>
             </div>
             </form>

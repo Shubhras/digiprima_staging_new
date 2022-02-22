@@ -1,6 +1,4 @@
 @include('head')
-
-
 <div class="thankyou-page">
     <div class="_header">
         <div class="logo">
@@ -11,10 +9,10 @@
     <div class="_body">
         <div class="_box">
             <h2>
-            <strong>Thanks for getting in touch with </strong>DigiPrima. We'll make sure the right person replies as soon as possible.
+                <strong>Thanks for getting in touch with </strong>DigiPrima. We'll make sure the right person replies as soon as possible.
             </h2>
             <p>
-            You can also mail us at info@digiprima.com to start a Conversation about your project straight away.
+                You can also mail us at info@digiprima.com to start a Conversation about your project straight away.
             </p>
         </div>
     </div>

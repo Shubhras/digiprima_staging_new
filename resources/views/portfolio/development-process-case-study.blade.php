@@ -366,7 +366,7 @@ Employees: We have the best team of developers as employees to work on project.<
 <p> -->
 
 
-  <p>
+  <!-- <p>
 <div class="container">
 <div class="row">
 
@@ -388,7 +388,7 @@ Employees: We have the best team of developers as employees to work on project.<
 </div>
 </div>
 
-</p>
+</p> -->
 
   <p>
 
@@ -459,7 +459,7 @@ Employees: We have the best team of developers as employees to work on project.<
                             <li><a href="/blog/mailchimps-conversion-content-strategy/">Mailchimp's Secret Content Strategy Convinces Freemium Users to Upgrade to Paid</a></li>
                         </ul>
                     </div>
-             <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a>  </div>
+             <a class="mi-col" href="/blog/tag/case-study/"></a>  </div>
           </div>
         </div>
         <!--== Post End ==-->

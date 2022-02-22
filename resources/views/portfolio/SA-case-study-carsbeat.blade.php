@@ -20,7 +20,7 @@ $description= 'The client Street Authority LLC is a research-intensive financial
  </div> -->
 
  <div class="transition-none">
-     <section class="title-hero-bg banking-banner" style="background: url({{asset('images/background/case-study206.jpg')}}" alt="case study in development" title="case study in development">
+     <section class="title-hero-bg banking-banner" style="background: url({{asset/images/background/case-study206.jpg}})" alt="case study in development" title="case study in development">
 
        <div class="layer container">
            <div class="page-title text-center white-color">
@@ -359,7 +359,7 @@ allocated.</p>
 <p> -->
 
 
- <p>
+ <!-- <p>
 <div class="container">
 <div class="row">
 
@@ -381,7 +381,7 @@ allocated.</p>
 </div>
 </div>
 
-</p>
+</p> -->
 
  <p>
 
@@ -452,7 +452,7 @@ allocated.</p>
                            <li><a href="/blog/mailchimps-conversion-content-strategy/">Mailchimp's Secret Content Strategy Convinces Freemium Users to Upgrade to Paid</a></li>
                        </ul>
                    </div>
-            <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a>  </div>
+            <a class="mi-col" href="/blog/tag/case-study/"></a>  </div>
          </div>
        </div>
        <!--== Post End ==-->

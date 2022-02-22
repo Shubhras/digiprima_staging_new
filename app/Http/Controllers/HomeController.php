@@ -17,7 +17,6 @@ use Illuminate\Http\Request;
 
  * @package App\Http\Controllers
  */
-
 use DB;
 use Mail;
 use Session;
@@ -43,92 +42,44 @@ class HomeController extends Controller
         return  view('home') . view('footer2');
     }
 
-    public function feedback(Request $request)
-    {
-        // print_r($request->all());die;
-
-
-        //$data = $this->common();
-
-
-        $data1 = array(
-            'name' => $request->name,
-            'email' => $request->email,
-            'subject' => $request->subject,
-            'number' => $request->number,
-            'message' => $request->message,
-        );
-
-        $insert_id = DB::table('contactform1s')->insert($data1);
-        // print_r($insert_id);die;
-        $userEmail = 'info@digiprima.com';
-
-        // $userEmail = '10genjobs@gmail.com';
-
-        // $contact_id = DB::getPDO()->lastInsertId($insert_id);
-
-        // $contact_detail['contactform1s'] = DB::table('contactform1s')->select('contactform1s.*')
-        //     ->where('contactform1s.id', $contact_id)->first();
-        //print_r($contact_detail['contactform1s']);die;
-        if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
-            // Send mail to User his new otp
-            Mail::send('emails.send_contact_detail', [
-                'first_name' => $request->name,
-                'email' => $request->email,
-                'phone' => $request->number,
-                'subject' => $request->subject,
-                'message' => $request->message,
-                'last_name' => "",
-                'apply_for' => "",
-                'qualification' => "",
-                'city' => "",
-            ], function ($m) use ($userEmail) {
-                $m->from('info@digiprima.com', 'digiprima.com');
-                $m->to($userEmail, 'Admin')->subject('New job inquiry ');
-            });
-        }
-        // Session()
-        //     ->flash('message', 'Thanks for contact!!');
-
-        return  redirect('/feedback');  
-    }
 
 
     public function contact(Request $request)
     {
-        //print_r($request->all());die;
-
-
-        //$data = $this->common();
+       
+        // $validator = $this->validate($request, [
+        //     'g-recaptcha-response' => 'required',
+        // ]);
+        // $validator->addError('user','hlleo');
 
 
         $data1 = array(
             'name' => $request->name,
             'email' => $request->email,
-            'subject' => $request->subject,
+            // 'subject' => $request->subject,
             'number' => $request->number,
-            'message' => $request->message,
+            'massage' => $request->message,
         );
-
-        $insert_id = DB::table('contactform1s')->insert($data1);
-
+        $insert_id = DB::table('contacts')->insert($data1);
+        
         $userEmail = 'info@digiprima.com';
-
+        
+        
         // $userEmail = '10genjobs@gmail.com';
-
+        
         $contact_id = DB::getPDO()->lastInsertId($insert_id);
-
-        $contact_detail['contactform1s'] = DB::table('contactform1s')->select('contactform1s.*')
-            ->where('contactform1s.id', $contact_id)->first();
-        //print_r($contact_detail['contactform1s']);die;
-        if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+        
+        $contact_detail['contacts'] = DB::table('contacts')->select('contacts.*')
+        ->where('contacts.id', $contact_id)->first();
+        // print_r($request->name);die;
+        if (env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null ) {
             // Send mail to User his new otp
             Mail::send('emails.send_contact_detail', [
                 'first_name' => $request->name,
                 'email' => $request->email,
                 'phone' => $request->number,
-                'subject' => $request->subject,
-                'message' => $request->message,
+                // 'subject' => $request->subject,
+                'massage' => $request->massage,
                 'last_name' => "",
                 'apply_for' => "",
                 'qualification' => "",
@@ -138,10 +89,9 @@ class HomeController extends Controller
                 $m->to($userEmail, 'Admin')->subject('New job inquiry ');
             });
         }
-        Session()
-            ->flash('message', 'Thanks for contact!!');
+       
 
-            return  redirect('/contact');  
+        return  redirect('/feedback');
     }
 
     public function apply_now(Request $request)
@@ -162,7 +112,7 @@ class HomeController extends Controller
         // $formdata = DB::table('applynows')->insert($data2);
         $userEmail = 'info@digiprima.com';
         $customerEmail =$request->email;
-        if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+        if (env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null ) {
             // Send mail to User his new otp
             Mail::send('emails.send_contact_detail', [
                 'first_name' => $request->first_name,
@@ -179,7 +129,7 @@ class HomeController extends Controller
         }
        
 // user send mail in apply now page
-if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+if (env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null ) {
     // Send mail to User his new otp
     Mail::send('emails.send_meeting_request_users_apply', [
         'first_name' => $request->first_name,
@@ -216,7 +166,7 @@ return redirect('/home');
         $meeting = DB::table('meetinghomes')->insert($data3);
         $userEmail = 'info@digiprima.com';
         $customerEmail =$request->email;
-        if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+        if (env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null ) {
             // Send mail to User his new otp
             Mail::send('emails.send_meeting_request', [
                 'name' => $request->name,
@@ -232,7 +182,7 @@ return redirect('/home');
 
 // user send mail
 
-if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+if (env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null ) {
     // Send mail to User his new otp
     Mail::send('emails.send_meeting_request_users', [
         'name' => $request->name,
@@ -266,17 +216,16 @@ if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_
         $requestMmeeting = DB::table('meetings')->insert($data4);
         $customerEmail = $request->email;
         $userEmail = 'info@digiprima.com';
-        if (env('MAIL_USERNAME') != null && env('MAIL_USERNAME') != "null" && env('MAIL_USERNAME') != "") {
+        if (env('MAIL_USERNAME') != null && env('MAIL_PASSWORD') != null ) {
             // Send mail to User his new otp
             Mail::send('emails.send_meeting_request', [
                 'name' => $request->name,
                 'email' => $request->email,
                 // 'newMessage' => $request->message
                 'newMessage' =>$messages
-            ], function ($m) use ($userEmail) {
+            ], function ($m) use ($userEmail,$customerEmail) {
                 $m->from('info@digiprima.com', 'digiprima.com');
-                $m->to([$userEmail,$customerEmail], 'request meeting')->subject('Meeting Requested ');
-                
+                $m->to([$userEmail], 'request meeting')->subject('Meeting Requested ');
             });
         }
 

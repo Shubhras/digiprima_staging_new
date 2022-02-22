@@ -1,58 +1,146 @@
-<?php 
+<?php
 
 
-$title ='Loan Moksha jitendraS - Largest Loan & Card Marketplace ';
-$description= 'We at Digiprima met this criterion. Thanks to our extensive experience and expertise in complex solutions for the financial and investment management domains.';
+$title = 'Loan Moksha jitendraS - Largest Loan & Card Marketplace ';
+$description = 'We at Digiprima met this criterion. Thanks to our extensive experience and expertise in complex solutions for the financial and investment management domains.';
 
 ?>
 @include('head')
 
 <style>
-  .page-title.text-center.white-color {
-    margin-top: 30px;
-}
-section.title-hero-bg.banking-banner {
-    min-height: 400px;
-    
-}
-.button {
-    margin-top: 12px;
-    margin-bottom: 10px;
-    padding: 7px 10px;
-    border-radius: 5px;
-    /* color: #fff; */
-    line-height: 1.4em;
-    font-weight: 500;
-    text-align: center;
-}
-a {
-    text-decoration: none;
-    /* color: #ffffff;
+    .page-title.text-center.white-color {
+        margin-top: 30px;
+    }
+
+    section.title-hero-bg.banking-banner {
+        min-height: 400px;
+
+    }
+
+    .button {
+        margin-top: 12px;
+        margin-bottom: 10px;
+        padding: 7px 10px;
+        border-radius: 5px;
+        /* color: #fff; */
+        line-height: 1.4em;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        /* color: #ffffff;
     background-color: #ffffff;
      */
-}
-.vip {
-  font-size: 14px;
-}
-.button:hover {
-    background-color: #ffffff;
-    -webkit-transform: scale(0.95);
-    -ms-transform: scale(0.95);
-    transform: scale(0.95);
-    color: #ffffff;
-}
-a:active, a:hover {
-    outline: 0;
-}
-.new-sec-list-new {
-            font-size: 18px;
-            font-weight: 100;
-            line-height: 38px;
-            padding: 16px 55px 0px 72px;
-            color:#606060;
+    }
+
+    .vip {
+        font-size: 14px;
+    }
+
+    .button:hover {
+        background-color: #ffffff;
+        -webkit-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        transform: scale(0.95);
+        color: #ffffff;
+    }
+
+    a:active,
+    a:hover {
+        outline: 0;
+    }
+
+    .new-sec-list-new {
+        font-size: 18px;
+        font-weight: 100;
+        line-height: 38px;
+        padding: 16px 55px 0px 72px;
+        color: #606060;
+    }
+
+    .post-info.pt-20.pb-20.digi-blog.new-one {
+        width: 90%;
+        height: 578px;
+    }
+
+    .post.scholly {
+        margin-top: -45px;
+    }
+
+    .post.bet {
+        margin-top: -50px;
+    }
+
+    .post.fin {
+        margin-top: -50px;
+    }
+
+    button.btn.btn-dark.sub-btn.add-new {
+        margin-top: 2px;
+    }
+
+    .read-next-card-content.py-new.python-new {
+        list-style: none;
+        padding: 10px;
+        color: white !important;
+        padding-bottom: 25px;
+        margin-top: -25px;
+    }
+
+    .read-next-card-content ul li.ch-lis-new {
+        list-style: none;
+        border-bottom: 1px solid white;
+        padding: 25px;
+        color: white !important;
+    }
+
+
+
+    @media (min-width: 992px) {
+        .col-md-3.col-sm-6.col-xs-12.wow.fadeInUp {
+            padding-left: 0px;
+            padding-right: 0px;
         }
-/* .button1 {background-color: #4b4b4b; color:white;} */
-  </style>
+    }
+
+    @media (min-width: 768px) {
+        button.btn.btn-dark.sub-btn {
+            margin-left: 284px;
+            margin-top: 10px;
+        }
+
+        .col-md-3.col-sm-6.col-xs-12.wow.fadeInUp {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+    }
+
+    @media (min-width: 425px) {
+        button.btn.btn-dark.sub-btn {
+            margin-left: 117px;
+            margin-top: 10px;
+        }
+
+    }
+
+    @media (min-width: 375px) {
+        button.btn.btn-dark.sub-btn {
+            margin-left: 88px;
+            margin-top: 10px;
+        }
+
+    }
+
+    @media (min-width: 320px) {
+        button.btn.btn-dark.sub-btn {
+            margin-left: 60px;
+            margin-top: 10px;
+        }
+
+        /* .button1 {background-color: #4b4b4b; color:white;} */
+</style>
 <!-- <div class="transition-none">
      <section class="title-hero-bg sec-bg-port" style="background-image: url(images/background/case-study205.jpg); background-size: 100% 550px;" alt="loan lending app development in india" title="loan lending app development in india">
        <div class="container">
@@ -60,87 +148,88 @@ a:active, a:hover {
      </section>
  </div> -->
 
- <div class="transition-none">
-     <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/background/case-study205.jpg') }}" alt="case study in development" title="case study in development">
+<div class="transition-none">
+    <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/background/case-study205.jpg') }}" alt="case study in development" title="case study in development">
 
-       <div class="layer container">
-           <div class="page-title text-center white-color">
-               <h1>Case Study</h1>
-               <h4 class="mt-30"style="margin-top: -5px">Proven Development Partner for Top-Tier InsurTech Company</h4>
-           </div>
-       </div>
-     </section>
- </div>
+        <div class="layer container">
+            <div class="page-title text-center white-color">
+                <h1>Case Study</h1>
+                <h4 class="mt-30" style="margin-top: -5px">Proven Development Partner for Top-Tier InsurTech Company</h4>
+            </div>
+        </div>
+    </section>
+</div>
 
 
 
- <section class="gray-bg white-block banking-section my-bg">
-   <div class="container">
-     <div class="row">
-        <div class="col-sm-8 section-heading">
-         <h2 class="text-uppercase mt-0" style="color: black">Telaqua - Smart Agriculture & Irrigation (IoT, Python)</h2><h2 class="text-uppercase mt-0" style="color: black">Case Study</h2>
+<section class="gray-bg white-block banking-section my-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 section-heading">
+                <h2 class="text-uppercase mt-0" style="color: black">Telaqua - Smart Agriculture & Irrigation (IoT, Python)</h2>
+                <h2 class="text-uppercase mt-0" style="color: black">Case Study</h2>
 
-     <!-- <h5 class="roboto-font font-100">Case Study, SEO, PPC, GOOGLE ADS (ADWORDS) /6 JULY 2020</h5> -->
-     
-       </div>   
-       </div>
-   </div>
- </section>
+                <!-- <h5 class="roboto-font font-100">Case Study, SEO, PPC, GOOGLE ADS (ADWORDS) /6 JULY 2020</h5> -->
+
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
 <div class="container mt-pag-sec">
- <div class="row">
-   <div class="new-sec">
-<h3>Market Opportunity </h3>
-<p  style="color:#606060">Telaqua is a remote control solution used to improve water consumption and very useful and important for agriculture industry and in farming. Telaqua’s devices are used to eliminate undesirable consumption and waste of water and improves efficiency by remotely ensuring the system works as per schedule created.<br> 
-<button class="button button1"><a href="https://telaqua.com/en" class="vip">View Project</a></button>
-<!-- <a href="https://telaqua.com/en">https://telaqua.com/en </a></p> -->
+    <div class="row">
+        <div class="new-sec">
+            <h3>Market Opportunity </h3>
+            <p style="color:#606060">Telaqua is a remote control solution used to improve water consumption and very useful and important for agriculture industry and in farming. Telaqua’s devices are used to eliminate undesirable consumption and waste of water and improves efficiency by remotely ensuring the system works as per schedule created.<br>
+                <button class="button button1"><a href="https://telaqua.com/en" class="vip">View Project</a></button>
+                <!-- <a href="https://telaqua.com/en">https://telaqua.com/en </a></p> -->
 
-<h3>Problem Statement </h3>
-<p style="color:#606060">The main problem was that there was no viable or <b>suitable platform </b>that can sustain and provide an interface to schedule the irrigation and real time monitoring of<b> water consumption</b> .  </p>
+            <h3>Problem Statement </h3>
+            <p style="color:#606060">The main problem was that there was no viable or <b>suitable platform </b>that can sustain and provide an interface to schedule the irrigation and real time monitoring of<b> water consumption</b> .  </p>
 
-<p style="color:#606060">In short, a portal and a mobile app was needed to be developed so that customers can </p>
-<ul class="new-sec-list-new">
-   <li> Save time on water distribution circuits</li>
-   <li> Customer can monitor, program and optimise irrigation with mind at ease and plan the irrigation better. </li>
-    <li>Create a system in the state-of-the-art digital format.</li>
-  <li>  Real-time dashboard, Accessible in both web and mobile versions </li>
-</ul>
-<br>
-<h3>Our Approach – Proposed Solution:</h3>
-<p style="color:#606060">We proposed a solution that provided an efficient way to deal with water consumption and irrigation monitoring.</p>
-<ul class="new-sec-list-new">
- <li>Front End: Vieu.js</li>
- <li> Database: AWS RDS</li>
-<li>Firebase – NoSQL real time database (Back-end)</li>
-<li> Back End: Node JS, Python </li>
-</ul>
-<br>
-<center>
-<img src="images/study1.png" alt="loan lending app development in india" title="loan lending app development in india">
-</center>
-<br>
-<br>
-<p style="color:#606060">The client had 350+ physical lands wanted the users to interact with the application by scheduling the irrigation day cycle and duration hours etc. So that the Automated irrigation system can help farmers across the world by alleviating human intervention for monitoring the crop land. And have the back end database, a real time database that reflects and set data to and fro between device and front end. </p>
-<h3>Challenges- Objectives achieved</h3>
-<p style="color:#606060">Our approach allowed us to provide our client with:</p>
-<ol class="new-sec-list-new">
-  <li>Delivering the system within the stipulated time of 3 months</li>
-  <li>Multiple changes were incorporated within the application for full customer satisfaction.</li>
-  <li>Understanding the customer requirements was a challenging task at the beginning and we managed to overcome it successfully.</li>
-  <li>Providing a user friendly interface with all the complexity was itself a big task on its own which we achieved with our flexible on demand in-house team.</li>
-</ol> 
-<br>
- 
-<h3>Results – Customer Testimony</h3>
-<p style="color:#606060">Digiprima has been very supportive and polite in every aspect of the project right from the start. Even after bugging them with small changes in the interface and limiting the completion timeline, they have been very supportive and successful in delivering the project despite the tight deadlines. I will always be grateful for them in implementing this mission critical project for us. For anyone looking to implement any kind of development work or application maintenance work, will always recommend Digiprima as the sole developer who worked tirelessly for us.</p>
+            <p style="color:#606060">In short, a portal and a mobile app was needed to be developed so that customers can </p>
+            <ul class="new-sec-list-new">
+                <li> Save time on water distribution circuits</li>
+                <li> Customer can monitor, program and optimise irrigation with mind at ease and plan the irrigation better. </li>
+                <li>Create a system in the state-of-the-art digital format.</li>
+                <li> Real-time dashboard, Accessible in both web and mobile versions </li>
+            </ul>
+            <br>
+            <h3>Our Approach – Proposed Solution:</h3>
+            <p style="color:#606060">We proposed a solution that provided an efficient way to deal with water consumption and irrigation monitoring.</p>
+            <ul class="new-sec-list-new">
+                <li>Front End: Vieu.js</li>
+                <li> Database: AWS RDS</li>
+                <li>Firebase – NoSQL real time database (Back-end)</li>
+                <li> Back End: Node JS, Python </li>
+            </ul>
+            <br>
+            <center>
+                <img src="images/study1.png" alt="loan lending app development in india" title="loan lending app development in india">
+            </center>
+            <br>
+            <br>
+            <p style="color:#606060">The client had 350+ physical lands wanted the users to interact with the application by scheduling the irrigation day cycle and duration hours etc. So that the Automated irrigation system can help farmers across the world by alleviating human intervention for monitoring the crop land. And have the back end database, a real time database that reflects and set data to and fro between device and front end. </p>
+            <h3>Challenges- Objectives achieved</h3>
+            <p style="color:#606060">Our approach allowed us to provide our client with:</p>
+            <ol class="new-sec-list-new">
+                <li>Delivering the system within the stipulated time of 3 months</li>
+                <li>Multiple changes were incorporated within the application for full customer satisfaction.</li>
+                <li>Understanding the customer requirements was a challenging task at the beginning and we managed to overcome it successfully.</li>
+                <li>Providing a user friendly interface with all the complexity was itself a big task on its own which we achieved with our flexible on demand in-house team.</li>
+            </ol>
+            <br>
 
-<img src="images/study2.png" alt="" style="height: auto;
-    max-width: 47%; margin-left:52px;"/>
-<img src="images/study3.png" alt="" style="height: auto;
-    max-width: 40%;padding: 12px;margin-left:43px;"/>
-<!-- <ul class="new-sec-list">
+            <h3>Results – Customer Testimony</h3>
+            <p style="color:#606060">Digiprima has been very supportive and polite in every aspect of the project right from the start. Even after bugging them with small changes in the interface and limiting the completion timeline, they have been very supportive and successful in delivering the project despite the tight deadlines. I will always be grateful for them in implementing this mission critical project for us. For anyone looking to implement any kind of development work or application maintenance work, will always recommend Digiprima as the sole developer who worked tirelessly for us.</p>
+
+            <img src="images/study2.png" alt="" style="height: auto;
+    max-width: 47%; margin-left:52px;" />
+            <img src="images/study3.png" alt="" style="height: auto;
+    max-width: 40%;padding: 12px;margin-left:43px;" />
+            <!-- <ul class="new-sec-list">
  <li>Cloud-based Fin Tech platform</li>
  <li> Credit and CIBIL Report.</li>
 <li>Compare Mutual Funds.</li>
@@ -160,7 +249,7 @@ a:active, a:hover {
 </ul> -->
 
 
-<!-- 
+            <!-- 
 <img src="images/screen-3.png" alt=""/>
 <p class="cap-img">Backlinks via SpyFu.</p>
 </center>
@@ -360,191 +449,196 @@ allocated.</p>
 <p> -->
 
 
- <p>
-<div class="container">
-<div class="row">
+            /* <p>
+            <div class="container">
+                <div class="row">
 
-<!-- <div class="col-md-2">
+                    <!-- <div class="col-md-2">
    <img class="fb-img" src="images/sidpic.jpg" alt="outsource node js development company" title="outsource node js development company">
 
 </div> -->
 
-<!-- <div class="col-md-8">
+                    <!-- <div class="col-md-8">
 <h5>Sidra Condron</h5>
 <span>Sidra writes for SpyFu, sharing ideas that connect with real-life marketers at all skill levels. We're all just trying to raise our game one more notch, right?</span>
 </div> -->
 
 
-<!-- <div class="col-md-2">
+                    <!-- <div class="col-md-2">
   <button type="button" class="btn btn-dark readmor">Read More</button>
 
 </div> -->
+                </div>
+            </div>
+
+            </p> */
+
+            <p>
+
+            <div class="container text-center news-sec">
+
+                <div class="row">
+                    <div class="co-md-12">
+                        <h5>Subscribe to our newsletter for more search marketing news & industry trends</h5>
+                    </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2">
+
+
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text" class="form-control form-control-lg" placeholder="Email" name="text3">
+                            </div>
+                            <div class="col-md-4">
+                                <button type="button" class="btn btn-dark sub-btn add-new">Submit</button>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+            </p>
+
+
+
+
+        </div>
+        <!--1-->
+
+
+    </div>
+    <!--1-->
 </div>
-</div>
-
-</p>
-
- <p>
-
-<div class="container text-center news-sec">
-
-  <div class="row">
-   <div class="co-md-12">
- <h5>Subscribe to our newsletter for more search marketing news & industry trends</h5>
-</div>
-  
-<div class="container">
-<div class="row">
- <div class="col-md-2">
-  
+<!--1-->
 
 </div>
-<div class="col-md-6">
- <input type="text" class="form-control form-control-lg" placeholder="Email" name="text3">
-</div>
-<div class="col-md-4">
-  <button type="button" class="btn btn-dark sub-btn">Submit</button>
-</div>
-</div>
-
-</div>
-                   
-
-</div>
- </div>
-
-</p>
-
-
-
-
-</div><!--1-->
-                   
-
-</div><!--1-->
- </div><!--1-->
-
-</div><!--1-->
+<!--1-->
 
 
 <section class="white-bg">
-   <div class="container">
-     <div class="row">
-       <div class="col-sm-8 section-heading">
-         <h5 class="text-uppercase default-color mt-0">So what's new</h5>
-         <h3 class="roboto-font font-400">Brands are built around stories. <br>Here are a few of our own</h3>
-       </div>
-     </div>
-     <div class="row mt-50">
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
-         <div class="post">
-         
-           <div class="post-info pt-20 pb-20 digi-blog">
-             <!-- s<h3>— The Official SpyFu Blog —</h3> -->
-             <text style="text-align: center; font-size: xx-large; margin-left: 26px; color: #f3eeee;
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8 section-heading">
+                <h5 class="text-uppercase default-color mt-0">So what's new</h5>
+                <h3 class="roboto-font font-400">Brands are built around stories. <br>Here are a few of our own</h3>
+            </div>
+        </div>
+        <div class="row mt-50">
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="post">
+
+                    <div class="post-info pt-20 pb-20 digi-blog new-one">
+                        <!-- s<h3>— The Official SpyFu Blog —</h3> -->
+                        <text style="text-align: center; font-size: xx-large; margin-left: 26px; color: #f3eeee;
 ">Case Study</text>
-            <!--  <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"></path></svg>
+                        <!--  <div class="read-next-divider"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14.5s2 3 5 3 5.5-2.463 5.5-5.5S21 6.5 18 6.5c-5 0-7 11-12 11C2.962 17.5.5 15.037.5 12S3 6.5 6 6.5s4.5 3.5 4.5 3.5"></path></svg>
 </div> -->
-             <hr>
+                        <hr>
 
-           <div class="read-next-card-content">
-                       <ul>
-                           <li><a href="/blog/allbirds-weaves-branding-and-seo/">Allbirds Weaves its Brand-building Expertise into SEO and Google Ads</a></li>
-                           <li><a href="/blog/intercom-content-strategy-leader/">How Intercom's Content Strategy Helped Them Become a Leader in Website Chat</a></li>
-                           <li><a href="/blog/mailchimps-conversion-content-strategy/">Mailchimp's Secret Content Strategy Convinces Freemium Users to Upgrade to Paid</a></li>
-                       </ul>
-                   </div>
-            <a class="mi-col" href="/blog/tag/case-study/">See all 8 posts →</a>  </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+                        <div class="read-next-card-content py-new python-new">
+                            <ul>
+                                <li class="ch-lis-new"><a href="/blog/allbirds-weaves-branding-and-seo/">Allbirds Weaves its Brand-building Expertise into SEO and Google Ads</a></li>
+                                <li class="ch-lis-new"><a href="/blog/intercom-content-strategy-leader/">How Intercom's Content Strategy Helped Them Become a Leader in Website Chat</a></li>
+                                <li class="ch-lis-new"><a href="/blog/mailchimps-conversion-content-strategy/">Mailchimp's Secret Content Strategy Convinces Freemium Users to Upgrade to Paid</a></li>
+                            </ul>
+                        </div>
 
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="{{asset('images/loanmoksha.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-           <div class="post-info pt-20 pb-20">
-           <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="loanmoksha-case-study" target="blank"> LoanMoksha largest loan & card marketplace</a></h3>
-             <h6 style="margin-left:10px;"> April 19, 2014</h6>
-             <hr>
-           
-             <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
 
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-           <div class="post-info pt-20 pb-20">
-             <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="owl-case-study">MDout healthcare research and analutics company</a></h3>
-             <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
-             <hr>
-            </span> </p>
-             <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="post">
+                    <div class="post-img"> <img class="img-responsive" src="{{asset('images/loanmoksha.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+                    <div class="post-info pt-20 pb-20">
+                        <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="loanmoksha-case-study" target="blank"> LoanMoksha largest loan & card marketplace</a></h3>
+                        <h6 style="margin-left:10px;"> April 19, 2014</h6>
+                        <hr>
 
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="{{asset('images/my-thana-app.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-           <div class="post-info pt-20 pb-20">
-             <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="my-thana-app-case-study">My Thana App India's First Police App with Video Call</a></h3>
-             <h6 style="margin-left:10px;">November 18, 2016</h6>
-             <hr>
-             <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
+                        <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
+
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="post">
+                    <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+                    <div class="post-info pt-20 pb-20">
+                        <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="owl-case-study">MDout healthcare research and analutics company</a></h3>
+                        <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
+                        <hr>
+                        </span> </p>
+                        <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
+
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="post thana">
+                    <div class="post-img"> <img class="img-responsive" src="{{asset('images/my-thana-app.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+                    <div class="post-info pt-20 pb-20">
+                        <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="my-thana-app-case-study">My Thana App India's First Police App with Video Call</a></h3>
+                        <h6 style="margin-left:10px;">November 18, 2016</h6>
+                        <hr>
+                        <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
              <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
 
 
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-           <div class="post-info pt-20 pb-20">
-           <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="bethite-case-study" target="blank"> BetHite Peer to Peer Sports Betting Platform</a></h3>
-             <h6 style="margin-left:10px;"> April 19, 2014</h6>
-             <hr>
-           
-             <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="post bet">
+                    <div class="post-img"> <img class="img-responsive" src="{{asset('images/mdout.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+                    <div class="post-info pt-20 pb-20">
+                        <h3 style="color: black; margin-left:10px; margin-top: -22px;"> <a href="bethite-case-study" target="blank"> BetHite Peer to Peer Sports Betting Platform</a></h3>
+                        <h6 style="margin-left:10px;"> April 19, 2014</h6>
+                        <hr>
 
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="{{asset('images/finaceexchange.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-           <div class="post-info pt-20 pb-20">
-             <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="finexchange-case-study">Finexchange Online Syndication Desk</a></h3>
-             <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
-             <hr>
-            </span> </p>
-             <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+                        <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
 
-       <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
-         <div class="post">
-           <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
-           <div class="post-info pt-20 pb-20">
-             <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="scholly-me-case-study">SchollyMe Social Platform for Athletes & Coaches</a></h3>
-             <h6 style="margin-left:10px;">November 18, 2016</h6>
-             <hr>
-             <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="post fin">
+                    <div class="post-img"> <img class="img-responsive" src="{{asset('images/finaceexchange.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+                    <div class="post-info pt-20 pb-20">
+                        <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="finexchange-case-study">Finexchange Online Syndication Desk</a></h3>
+                        <h6 style="margin-left:10px;">Febuary 13, 2018</h6>
+                        <hr>
+                        </span> </p>
+                        <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
+
+            <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="post scholly">
+                    <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
+                    <div class="post-info pt-20 pb-20">
+                        <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="scholly-me-case-study">SchollyMe Social Platform for Athletes & Coaches</a></h3>
+                        <h6 style="margin-left:10px;">November 18, 2016</h6>
+                        <hr>
+                        <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
              <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
+                    </div>
+                </div>
+            </div>
+            <!--== Post End ==-->
 
-       <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
+            <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.2s">
          <div class="post">
            <div class="post-img"> <img class="img-responsive" src="{{asset('images/lekumeia.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
            <div class="post-info pt-20 pb-20">
@@ -553,11 +647,11 @@ allocated.</p>
              <hr>
            
              <!-- <a class="readmore" href="#"><span>Read More</span></a>  -->
-             </div>
-         </div>
-       </div>
-       <!--== Post End ==-->
-<!-- 
+        </div>
+    </div>
+    </div>
+    <!--== Post End ==-->
+    <!-- 
        <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.3s">
          <div class="post">
            <div class="post-img"> <img class="img-responsive" src="{{asset('images/mob-apps.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
@@ -567,30 +661,27 @@ allocated.</p>
              <hr>
             </span> </p>
 //< <a class="readmore" href="#"><span>Read More</span></a>  -->
-             <!-- </div>
+    <!-- </div>
          </div>
        </div> -->
-       <!--== Post End ==-->
+    <!--== Post End ==-->
 
-       <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
+    <!-- <div class="col-md-3 col-sm-6 col-xs-12 wow fadeInUp" data-wow-delay="0.4s">
          <div class="post">
            <div class="post-img"> <img class="img-responsive" src="{{asset('images/fashtique.png')}}" alt="outsource node js development company" title="outsource node js development company"> </div>
            <div class="post-info pt-20 pb-20">
              <h3 style="color: black; margin-left:10px; margin-top: -22px;"><a href="screen-builder-case-study">Digital Signage Screen Builder</a></h3>
              <h6 style="margin-left:10px;">November 18, 2016</h6>
              <hr> -->
-             <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
+    <!-- <p class="mt-10"> <span> <a class="extras-wrap" href="#"><i class="icofont icofont-chat"></i><span>5 Comments</span></a> <span class="extras-wrap"><i class="icofont icofont-clock-time"></i><span>15 Minutes</span></span> </span> </p>
               <a class="readmore" href="#"><span>Read More</span></a>  -->
-             <!-- </div>
+    <!-- </div>
          </div> -->
-       <!-- </div>  -->
-       <!--== Post End ==-->
+    <!-- </div>  -->
+    <!--== Post End ==-->
 
 
-     </div>
-   </div>
- </section>
- <!--== Blogs End ==-->
-
-
-
+    </div>
+    </div>
+</section>
+<!--== Blogs End ==-->

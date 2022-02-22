@@ -79,15 +79,15 @@
 
 <?php 
 
- $title ='Custom Healthcare Software Development Company | Medical App Development';
- $description= ' Our Healthcare Software Development Services involve designing and developing healthcare software for better patient care and improved efficiency.';
+ $title ='Healthcare Software Development Company | Medical App Developers';
+ $description= ' Our Healthcare Software Development Services involve designing and developing healthcare software for better patient care and improved efficiency. With the help of our services, you can better assist your patients.';
  $keyword = 'healthcare software development company, custom healthcare software, medical software development company, software development healthcare industry, software development company new york, custom healthcare software development, healthcare software development, custom healthcare software development services, software development services for healthcare, medical software development companies in India';
 
 ?>
 @include('head')
 
 <div class="transition-none">
-      <section class="title-hero-bg banking-banner" style="background: url({{ asset('images/healthcarebanner.jpg') }}" alt="healthcare software development company" title="healthcare software development company">
+      <section class="title-hero-bg banking-banner" style="background: url({{asset('images/healthcarebanner.jpg')}}" alt="healthcare software development company" title="healthcare software development company">
 
  
         <div class="layer container">
@@ -169,6 +169,38 @@
 
       </section>
 
+
+
+  
+
+
+<section class="pt-0 pb-0 bordered-bg">
+  <div class="container-fluid">
+    <div class="row row-flex flex-center">
+      <div class="col-md-6 col-sm-12 bg-flex-cover" style="background-image: url({{asset('images/page/Business-One-for-manufacturing-business-a-complete.png')}});" alt="manufacturing software developer" title="manufacturing software developer"></div>
+      <div class="col-md-5 col-sm-12">
+        <div class="col-inner spacer">
+
+
+          <h2 class="mt-10 font-700 roboto-font">Healthcare Software Development Company.</h2>
+
+
+          
+          <hr class="left-line dark-bg bold-line">
+          <div class="row mt-8">
+            <div class="col-md-12">
+              <p>The right combination of a technological innovation and a process transformation can improve patient care while also improving treatment costs. As a specialist healthcare software development company, we work with industry leaders to foster transformation plans that include areas such as patient participation, care delivery, clinical trials, operations and equipment and clinical development.
+
+We take pride in being one of the unique Custom Healthcare Software, a growth company that continuously strives towards meeting your digital transformation aim. Advances in the medical cure, emerging users' choice towards self-directed management of health, new remote healthcare services, and the fast development of digital medical devices and technologies have led to an explosion of activity in medical software development. Healthcare includes a wide range of software and mobile application services such as custom application development and medical device software integration to help stakeholders in all areas of the healthcare delivery system.</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!--== Call to Actions Start ==-->
  @include('request-meeting')
   <!--== Call to Actions  End ==-->
@@ -178,10 +210,66 @@
 
 
 
+  <section class="grey-bg" style="padding-top:35px; padding-bottom:70PX;">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6" style="margin-left: 280px;">
+        <h3 class="mt-10 font-700 roboto-font abouth2">OUR DEVELOPERS DELIVERS SERVICES IN ALL THE STAGE OF PRODUCT DEVELOPMENT</h3>
+
+
+        <!-- <h3 class="default-color font-600">Big Data and advanced analytics, robotics and automation, artificial intelligence and virtual reality.</h3> -->
+        <!-- <p class="mt-20">
+        <ul class="ulist2">
+
+          <li>Online Banking Predictive Analysis</li>
+          <li>Financial Document Optimization</li>
+          <li>Trading Text-analytics</li>
+          <li>Crowdfunding Portals</li>
+          <li>Lender, Vendor & Borrower Platform</li>
+
+        </ul>
+        </p> -->
+      </div>
+
+
+
+
+
+    </div>
+
+
+    <div class="row mt-0">
+      <div class="col-md-12">
+        <div class="about-description">
+          <h4 class="mt-10 font-700 roboto-font abouth2">Healthcare Software Product Design </h4>
+
+          <p>Too many innovations fail because they have lack research really needed to solve any problem. What is the problem, why it should be solved, why now - when building a new product and on a software project There are several important questions to consider when deciding whether to proceed. In the case of custom healthcare software, this is especially significant therefore many stakeholders and their differing but overlapping points of view in the health care services model. DigiPrima understands very well and knows how to develop stakeholder research or a quick design session to enable you to determine what the next step should be in your product development path. </p>
+          <br>
+          <h4 class="mt-10 font-700 roboto-font abouth2 abouth3">Launch Your Application </h4>
+
+          <p> DigiPrima found that one of the keys to a successful medical product launch is to deliver a set of simulations designed to uncover data communication.</p>
+          <br>
+
+          <h4 class="mt-10 font-700 roboto-font abouth2 abouth3"> Build Your Application</h4>
+
+
+          <p> When it comes to medical software projects, we know that our commitment with the use of Agile methodology ensures that work gets done on time. Our extensive technology and in depth knowledge with our experience working with multiple companies to build complex integrations makes us particularly well suited for healthcare software development.</p>
+
+          <br>
+          
+          <h4 class="mt-10 font-700 roboto-font abouth2 abouth3">Hire Healthcare Developers From DigiPrima </h4>
+
+          <p>Hire dedicated developers for the healthcare industry,  DigiPrima leading Web and Mobile App Development Company in the globe that is always ready to help startups and big industries.</p>
+        </div>
+      </div>
+</section>
+
+
+
 
 
      
- <section class="grey-bg dark-block " style="padding-bottom:100px; padding-top:90px;">
+ <section class="white-bg dark-block " style="padding-bottom:100px; padding-top:90px;">
     <div class="container">
 
       <div class="row">

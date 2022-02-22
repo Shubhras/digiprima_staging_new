@@ -348,3 +348,6 @@ you can use the generic selector below, but it's slower:
 .fa-keyboard-o:before{
 	content: "\e07f";
 }
+.ion-checkmark-circled:before {
+    color: rgb(158, 158, 158);
+}

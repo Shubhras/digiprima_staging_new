@@ -4,7 +4,7 @@
 Homestead.yaml
 Homestead.json
 .env
-.htaccess
+
 
 # Created by https://www.toptal.com/developers/gitignore/api/laravel,git,windows,tortoisegit,linux,macos,composer,sublimetext,visualstudiocode,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=laravel,git,windows,tortoisegit,linux,macos,composer,sublimetext,visualstudiocode,node
